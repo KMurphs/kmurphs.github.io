@@ -1,0 +1,87 @@
+.App * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: background-color .6s;
+}
+
+.App {
+    text-align: center;
+    --nav-controls-height: 60px;
+    --nav-contents-width: 150px;
+    /* margin-top: var(--nav-controls-height); */
+}
+
+.App li {
+    list-style: none;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App .nav-controls li,
+.App .nav-contents li {
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    margin-top: .1em;
+    padding: .3em;
+}
+
+.App .nav-controls li:hover,
+.App .nav-contents li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.App .nav-controls {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: var(--nav-controls-height);
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+
+.App .nav-controls li {
+    margin: 0;
+}
+
+.App .nav-contents {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: var(--nav-contents-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.App .nav-logo {
+    width: var(--nav-contents-width)
+}
+
+.App .nav-logo {
+    width: var(--nav-contents-width)
+}
+
+.App .Pages {
+    background: rgba(0, 0, 0, 0.2);
+    padding-top: var(--nav-controls-height);
+    padding-left: var(--nav-contents-width);
+    /* width: calc(100vw - var(--nav-contents-width)); */
+    /* height: calc(100vh - var(--nav-controls-height)); */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App .Pages .page {
+    width: 90%;
+    height: 90%;
+    max-width: 1240px;
+}
