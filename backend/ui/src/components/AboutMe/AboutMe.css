@@ -1,0 +1,22 @@
+.about-me {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.about-me div {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    min-height: 50px;
+}
+
+.about-me .presentation {
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-me .presentation div {
+    /* min-width: 200px; */
+    /* display: inline-block; */
+    width: 33%;
+}
