@@ -9,8 +9,8 @@ const App: React.FC = () => {
     <div className="App">
       <Nav/>
       <div className="Pages">
-        <Home/>
-        {/* <AboutMe/> */}
+        {/* <Home/> */}
+        <AboutMe/>
       </div>
     </div>
   );
