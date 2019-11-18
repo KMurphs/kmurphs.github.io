@@ -1,64 +1,15 @@
-.App * {
-    margin: 0;
-    padding: 0;
-    box-sizing: 0;
-    transition: background-color .6s;
+.App>#navbarNavAltMarkup {
+    width: 150px;
+    background: rgba(0, 0, 0, .1);
 }
 
-.App li {
-    list-style: none;
-    background: rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.App {
-    text-align: center;
-    --nav-controls-height: 60px;
-    --nav-contents-width: 150px;
-    /* margin-top: var(--nav-controls-height); */
-}
-
-.App .nav-controls li,
-.App .nav-contents li {
-    color: white;
-    cursor: pointer;
+.App>#navbarNavAltMarkup .nav-item {
     height: 50px;
+    background: rgba(0, 0, 0, .1);
+    padding: .5em;
     margin-top: .1em;
-    padding: .3em;
 }
 
-.App .nav-controls li:hover,
-.App .nav-contents li:hover {
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.App .nav-controls {
-    position: fixed;
-    background: rgba(0, 0, 0, 0.5);
-    width: 100vw;
-    height: var(--nav-controls-height);
-    z-index: 10;
-    display: flex;
-    justify-content: space-between;
-}
-
-.App .nav-controls li {
-    margin: 0;
-}
-
-.App .nav-contents {
-    position: fixed;
-    background: rgba(0, 0, 0, 0.5);
-    height: 100vh;
-    width: var(--nav-contents-width);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: stretch;
-}
-
-.App .nav-logo {
-    width: var(--nav-contents-width)
+.App>#navbarNavAltMarkup .nav-item:hover {
+    background: rgba(0, 0, 0, .2);
 }
