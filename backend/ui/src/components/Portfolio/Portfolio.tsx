@@ -1,9 +1,11 @@
 import React from 'react';
 import './Portfolio.css';
-
-const Portfolio: React.FC = () => {
+type Props = {
+  isCurrentlyDisplayed: boolean
+}
+const Portfolio: React.FC<Props> = (props) => {
   return (
-    <div className="page Portfolio">
+    <div className={`page portfolio ${props.isCurrentlyDisplayed?'':'page--invisible'}`}>
       <div className="title">
         <span><h3>Portfolio</h3></span>
         <span><p>Artist, Thinker, Creative Doer</p></span>

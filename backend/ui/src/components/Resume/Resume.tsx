@@ -1,9 +1,11 @@
 import React from 'react';
 import './Resume.css';
-
-const Resume: React.FC = () => {
+type Props = {
+  isCurrentlyDisplayed: boolean
+}
+const Resume: React.FC<Props> = (props) => {
   return (
-    <div className="page resume">
+    <div className={`page resume ${props.isCurrentlyDisplayed?'':'page--invisible'}`}>
       <div className="title">
         <span><h3>Resume</h3></span>
         <span><p>Artist, Thinker, Creative Doer</p></span>

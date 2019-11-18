@@ -1,7 +1,9 @@
 import React from 'react';
 // import './Home.css';
-
-const Home: React.FC = () => {
+type Props = {
+  isCurrentlyDisplayed: boolean
+}
+const Home: React.FC<Props> = (props) => {
   return (
     <div className="home">
       <h1>Alex Smith</h1>

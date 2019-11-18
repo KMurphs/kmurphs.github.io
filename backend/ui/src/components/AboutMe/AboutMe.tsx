@@ -1,9 +1,13 @@
 import React from 'react';
 import './AboutMe.css';
 
-const AboutMe: React.FC = () => {
+
+type Props = {
+  isCurrentlyDisplayed: boolean
+}
+const AboutMe: React.FC<Props> = (props) => {
   return (
-    <div className="page about-me">
+    <div className={`page about-me ${props.isCurrentlyDisplayed?'':'page--invisible'}`}>
       <div className="title">
         <span><h3>About Me</h3></span>
         <span><p>Artist, Thinker, Creative Doer</p></span>

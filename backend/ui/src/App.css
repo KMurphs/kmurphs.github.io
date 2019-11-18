@@ -15,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .App .Pages .page {
@@ -24,8 +25,16 @@
     background: rgba(0, 0, 0, 0.1);
     overflow-x: hidden;
     overflow-y: auto;
+    position: absolute;
+    transition: all .6s;
 }
 
 .App .Pages .page div {
     border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.App .Pages .page--invisible {
+    opacity: 0;
+    transform: scale(0.5);
+    transition: all .6s;
 }

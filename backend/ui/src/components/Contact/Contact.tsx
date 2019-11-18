@@ -1,9 +1,11 @@
 import React from 'react';
 import './Contact.css';
-
-const Contact: React.FC = () => {
+type Props = {
+  isCurrentlyDisplayed: boolean
+}
+const Contact: React.FC<Props> = (props) => {
   return (
-    <div className="page contact">
+    <div className={`page contact ${props.isCurrentlyDisplayed?'':'page--invisible'}`}>
       <div className="title">
         <span><h3>Contact</h3></span>
         <span><p>Artist, Thinker, Creative Doer</p></span>
