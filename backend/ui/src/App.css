@@ -38,3 +38,8 @@
     transform: scale(0.5);
     transition: all .6s;
 }
+
+.App .text-small {
+    font-size: .8em;
+    /* line-height: 1em; */
+}

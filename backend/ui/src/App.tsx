@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import './scrollbar.css';
 import Nav from './components/Nav/Nav'
 import Home from './components/Home/Home';
 import AboutMe from './components/AboutMe/AboutMe';
@@ -17,7 +18,8 @@ export enum Pages {
 }
 const App: React.FC = () => {
 
-  const [currentPage, setCurrentPage] = useState<Pages>(Pages.HOME)
+  // const [currentPage, setCurrentPage] = useState<Pages>(Pages.HOME)
+  const [currentPage, setCurrentPage] = useState<Pages>(Pages.ABOUTME)
   const handleOldPage = (oldPage: Pages)=>{
     // setTimeout(()=>{
     //   alert('hello')
