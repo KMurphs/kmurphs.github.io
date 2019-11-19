@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './AboutMe.css';
+import useTransition from '../TransitionHook/useTransition';
 
 
 type Props = {
   isCurrentlyDisplayed: boolean
 }
 const AboutMe: React.FC<Props> = (props) => {
+  
+  const [hasDefaultState, setHasDefaultState] = useState<boolean>(true)
+  const {transition} = useTransition(props.isCurrentlyDisplayed, ()=>setHasDefaultState(true), ()=>setHasDefaultState(false))
+  
   return (
-    <div className={`page about-me ${props.isCurrentlyDisplayed?'':'page--invisible'}`}>
+    <div className={`page about-me ${props.isCurrentlyDisplayed?'':'page--invisible'} ${hasDefaultState?'about-me--default':''}`}>
       <div className="title">
         <span><h3>About Me</h3></span>
         <span><p>Artist, Thinker, Creative Doer</p></span>

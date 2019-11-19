@@ -1,11 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
+import useTransition from '../TransitionHook/useTransition';
 type Props = {
   isCurrentlyDisplayed: boolean
 }
 const Contact: React.FC<Props> = (props) => {
+  
+  const [hasDefaultState, setHasDefaultState] = useState<boolean>(true)
+  const {transition} = useTransition(props.isCurrentlyDisplayed, ()=>setHasDefaultState(true), ()=>setHasDefaultState(false))
+  
   return (
-    <div className={`page contact ${props.isCurrentlyDisplayed?'':'page--invisible'}`}>
+    <div className={`page contact ${props.isCurrentlyDisplayed?'':'page--invisible'} ${hasDefaultState?'contact--default':''}`}>
       <div className="title">
         <span><h3>Contact</h3></span>
         <span><p>Artist, Thinker, Creative Doer</p></span>
