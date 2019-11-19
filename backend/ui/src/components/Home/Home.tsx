@@ -9,7 +9,7 @@ type Props = {
 
 const Home: React.FC<Props> = (props) => {
   
-  const [hasDefaultState, setHasDefaultState] = useState<boolean>(true)
+  const [hasDefaultState, setHasDefaultState] = useState<boolean>(false)
   const {transition} = useTransition(props.isCurrentlyDisplayed, ()=>setHasDefaultState(true), ()=>setHasDefaultState(false))
   
   return (
