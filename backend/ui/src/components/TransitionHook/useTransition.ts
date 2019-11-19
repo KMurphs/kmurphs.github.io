@@ -14,7 +14,7 @@ export type ReturnObj = {
 }
 
 const useTransition = (willBeInDefaultState: boolean, cbForceDefaultState: ()=>any, cbLeaveDefaultState: ()=>any): ReturnObj => {
-
+  let printDebugMsgs = false
   let transition: Transition = Transition.NOT_TRANSITIONING
   const [isCurrentlyInDefaultState, setIsCurrentlyInDefaultState] = useState<boolean>(true)
 
@@ -23,12 +23,14 @@ const useTransition = (willBeInDefaultState: boolean, cbForceDefaultState: ()=>a
     setIsCurrentlyInDefaultState(willBeInDefaultState)
     isCurrentlyInDefaultState && !willBeInDefaultState 
       && (transition = Transition.DISAPPEARING) 
-      && (setTimeout(()=> {cbForceDefaultState(); console.log('Forcing Component Back to its default state')}, 600)) 
+      && (setTimeout(()=> {cbForceDefaultState(); printDebugMsgs && console.log('Forcing Component Back to its default state')}, 600)) 
+      && printDebugMsgs
       && (console.log('Component is: ', Transition[transition]))
 
     !isCurrentlyInDefaultState && willBeInDefaultState 
       && (transition = Transition.APPEARING) 
-      && (setTimeout(()=> {cbLeaveDefaultState(); console.log('Forcing Component to leave its default state')}, 0)) 
+      && (setTimeout(()=> {cbLeaveDefaultState(); printDebugMsgs && console.log('Forcing Component to leave its default state')}, 0)) 
+      && printDebugMsgs
       && (console.log('Component is: ', Transition[transition]))
       
   }
