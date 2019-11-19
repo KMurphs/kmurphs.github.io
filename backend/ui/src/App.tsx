@@ -18,10 +18,15 @@ export enum Pages {
 const App: React.FC = () => {
 
   const [currentPage, setCurrentPage] = useState<Pages>(Pages.HOME)
+  const handleOldPage = (oldPage: Pages)=>{
+    // setTimeout(()=>{
+    //   alert('hello')
+    // }, 600)
+  }
 
   return (
     <div className="App">
-      <Nav onDisplayNewPage={(newPage: Pages) => setCurrentPage(newPage)} activePage={currentPage}/>
+      <Nav onDisplayNewPage={(newPage: Pages) => {handleOldPage(currentPage); setCurrentPage(newPage)}} activePage={currentPage}/>
       <div className="Pages">
         <Home isCurrentlyDisplayed={currentPage===Pages.HOME}/>
         <AboutMe isCurrentlyDisplayed={currentPage===Pages.ABOUTME}/>
