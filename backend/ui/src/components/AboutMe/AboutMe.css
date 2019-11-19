@@ -15,5 +15,5 @@
 
 .about-me.about-me--default {
     transform: scaleX(1) !important;
-    margin-left: -100em;
+    margin-left: 100em;
 }
