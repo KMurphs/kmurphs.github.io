@@ -50,7 +50,7 @@ const AboutMe: React.FC<Props> = (props) => {
       </div>
 
       <div className="services">
-        <div>
+        <div className="services-title">
           <span><p>services</p></span>
         </div>
         <div className="row">
@@ -64,7 +64,7 @@ const AboutMe: React.FC<Props> = (props) => {
 
 
       <div className="clients">
-        <div>
+        <div className="clients-title">
           <span><p>clients</p></span>
         </div>
         <div className="row">
@@ -79,7 +79,7 @@ const AboutMe: React.FC<Props> = (props) => {
 
 
       <div className="testimonials">
-        <div>
+        <div className="testimonials-title">
           <span><p>testimonials</p></span>
         </div>
         <div className="row">
@@ -91,7 +91,7 @@ const AboutMe: React.FC<Props> = (props) => {
 
 
       <div className="fun-facts">
-        <div>
+        <div className="fun-facts-title">
           <span><p>fun-facts</p></span>
         </div>
         <div className="row">
