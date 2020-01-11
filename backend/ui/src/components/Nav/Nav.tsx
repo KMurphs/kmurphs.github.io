@@ -31,12 +31,12 @@ const Nav: React.FC = () => {
             </section>
             <ul className={`pt-8 bg-gray-900 fixed top-0 bottom-0 right-${isPaneOpen ? '0' : 'm64'} w-64 z-40 transition-300 text-white flex flex-col justify-around 
                             md:pt-0 md:box-sizing-content md:flex-row md:bottom-auto md:h-12 md:right-0 md:left-auto md:items-center md:justify-end md:w-4/5 md:bg-gray-100 md:text-black`}>
-                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2 active"> <a href="#" className="h-full flex justify-center items-center pt-1"><span>About Me</span></a></li>
-                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="#" className="h-full flex justify-center items-center pt-1"><span>Projects</span></a></li>
-                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="#" className="h-full flex justify-center items-center pt-1"><span>Connect With Me</span></a></li>
-                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="#" className="h-full flex justify-center items-center pt-1"><span>Testimonials</span></a></li>
-                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="#" className="h-full flex justify-center items-center pt-1"><span>Contact</span></a></li>
-                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="#" className="h-full flex justify-center items-center pt-1"><span>Resume</span></a></li>
+                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2 active"> <a href="/" className="h-full flex justify-center items-center pt-1"><span>About Me</span></a></li>
+                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="/" className="h-full flex justify-center items-center pt-1"><span>Projects</span></a></li>
+                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="/" className="h-full flex justify-center items-center pt-1"><span>Connect With Me</span></a></li>
+                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="/" className="h-full flex justify-center items-center pt-1"><span>Testimonials</span></a></li>
+                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="/" className="h-full flex justify-center items-center pt-1"><span>Contact</span></a></li>
+                <li className="scale-border-on-hover md:h-full hover:bg-gray-300 hover:text-gray-900 transition-600 hover:transition-600 px-4 py-2"> <a href="/" className="h-full flex justify-center items-center pt-1"><span>Resume</span></a></li>
             </ul>
         </nav>
 
