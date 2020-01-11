@@ -125,7 +125,7 @@
 
 
 .menu-icon--opened:checked~span:nth-of-type(1){
-    @apply top-p4/10;
+    @apply top-p4\/10;
     @apply rotate-p135;
 }
 .menu-icon--opened:checked~span:nth-of-type(2){
@@ -133,7 +133,7 @@
     @apply opacity-0;
 }
 .menu-icon--opened:checked~span:nth-of-type(3){
-    @apply top-p4/10;
+    @apply top-p4\/10;
     @apply rotate-m135;
 }
 
@@ -155,7 +155,8 @@
     transform: scaleY(0);
     position: absolute;
     border: none;
-    @apply bg-gray-200 transition-600;
+    @apply bg-gray-200;
+    @apply transition-600;
 }
 .scale-border-on-hover:hover::after{
     transform: scaleY(1);
@@ -170,7 +171,8 @@
         top:auto;
         width: auto;
         transform: scaleX(0);
-        @apply bg-gray-700 transition-600;
+        @apply bg-gray-700;
+        @apply transition-600;
     }
     .scale-border-on-hover:hover::after{
         transform: scaleX(1);
