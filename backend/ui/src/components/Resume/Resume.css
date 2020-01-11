@@ -1,8 +1,0 @@
-.resume {
-    margin-left: 0;
-}
-
-.resume.resume--default {
-    transform: scaleX(1) !important;
-    margin-left: -100em;
-}

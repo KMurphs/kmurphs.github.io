@@ -1,8 +1,0 @@
-.contact {
-    margin-top: 0;
-}
-
-.contact.contact--default {
-    transform: scaleX(1) !important;
-    margin-top: -100em;
-}

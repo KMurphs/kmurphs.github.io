@@ -1,41 +1,23 @@
-import React, { useState } from 'react';
-import './App.css';
-import './scrollbar.css';
-import Nav from './components/Nav/Nav'
-import Home from './components/Home/Home';
-import AboutMe from './components/AboutMe/AboutMe';
-import Resume from './components/Resume/Resume';
-import Contact from './components/Contact/Contact';
-import Portfolio from './components/Portfolio/Portfolio';
+import React from 'react';
+import logo from './logo.svg';
 
-
-export enum Pages {
-  HOME = 0,
-  ABOUTME,
-  RESUME,
-  CONTACT,
-  PORTFOLIO
-}
 const App: React.FC = () => {
-
-  // const [currentPage, setCurrentPage] = useState<Pages>(Pages.HOME)
-  const [currentPage, setCurrentPage] = useState<Pages>(Pages.ABOUTME)
-  const handleOldPage = (oldPage: Pages)=>{
-    // setTimeout(()=>{
-    //   alert('hello')
-    // }, 600)
-  }
-
   return (
-    <div className="App">
-      <Nav onDisplayNewPage={(newPage: Pages) => {handleOldPage(currentPage); setCurrentPage(newPage)}} activePage={currentPage}/>
-      <div className="Pages">
-        <Home isCurrentlyDisplayed={currentPage===Pages.HOME}/>
-        <AboutMe isCurrentlyDisplayed={currentPage===Pages.ABOUTME}/>
-        <Resume isCurrentlyDisplayed={currentPage===Pages.RESUME}/>
-        <Contact isCurrentlyDisplayed={currentPage===Pages.CONTACT}/>
-        <Portfolio isCurrentlyDisplayed={currentPage===Pages.PORTFOLIO}/>
-      </div>
+    <div className="m-auto antialiased font-sans font-serif font-mono text-center">
+      <header className="bg-gray-900 min-h-screen flex flex-col items-center justify-center text-white text-2xl">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="text-blue-300"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn Taiwlind with React TypeScript
+        </a>
+      </header>
     </div>
   );
 }
