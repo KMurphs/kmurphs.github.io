@@ -85,6 +85,21 @@
             -o-transition: all .3s ease-in-out;
             transition: all .3s ease-in-out;
         }
+        .hyphens-auto{
+            -webkit-hyphens: auto;
+            -ms-hyphens: auto;
+            hyphens: auto;
+        }
+        .hyphens-manual{
+            -webkit-hyphens: manual;
+            -ms-hyphens: manual;
+            hyphens: manual;
+        }
+        .hyphens-none{
+            -webkit-hyphens: none;
+            -ms-hyphens: none;
+            hyphens: none;
+        }
     }
 }
 

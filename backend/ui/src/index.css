@@ -24,5 +24,8 @@ code {
 }
 
 .hero .cta{
-  width: 36rem;
+  max-width: 30rem;
+}
+.hero .hero-text{
+  max-width: 40rem;
 }
