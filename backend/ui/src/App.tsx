@@ -5,18 +5,19 @@ import Hero from './components/Hero/Hero'
 
 const App: React.FC = () => {
   const [isPaneOpen, setIsPaneOpen] = useState<boolean>(false);
+
+
   return (
     <main>
       <header className="h-screen w-screen flex flex-col justify-start items-stretch">
         <Nav />
-        <div className="flex-1 flex ">
-          <div className={`flex-none w-40 bg-gray-200 transition-600 ${!isPaneOpen?'-ml-40':'-ml-0'}`}>
+        <div className="flex-1 flex">
+          <div className={`pt-16 flex-none h-full w-40 bg-gray-200 transition-600 ${!isPaneOpen?'-ml-40':'-ml-0'}`}>
             Hello from side
-            <Menu menuState={isPaneOpen} onMenuStateChange={setIsPaneOpen} extraClasses={'fixed left-p4 bottom-p4 rotate-p180'}/>
+            <Menu menuState={isPaneOpen} onMenuStateChange={setIsPaneOpen} extraClasses={'fixed left-p2 bottom-p2 rotate-p270'}/>
           </div>
           <div className="flex-1 bg-gray-100 transition-600"><Hero /></div>
         </div>   
-
       </header>
 
       

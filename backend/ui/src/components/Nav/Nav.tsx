@@ -8,7 +8,7 @@ const Nav: React.FC = () => {
 
     return (
 
-        <nav className="fixed w-full">
+        <nav className="fixed w-full z-30">
             <section className="block flex justify-between items-center bg-gray-100 px-2 py-1">
                 
                 <div className="border-4 border-gray-200 cursor-pointer logo p-1 pt-2 pr-2 rounded-50 bg-gray-900 w-12 h-12 flex-center text-white" 
