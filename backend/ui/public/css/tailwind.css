@@ -13125,13 +13125,13 @@ video {
 }
 
 .transition-300 {
-  -webkit-transition: all .3s ;
-  transition: all .3s ;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .transition-600 {
-  -webkit-transition: all .6s ;
-  transition: all .6s ;
+  -webkit-transition: all .6s;
+  transition: all .6s;
 }
 
 .transition-300-ease-in-out {
@@ -13140,13 +13140,13 @@ video {
 }
 
 .hover\:transition-300:hover {
-  -webkit-transition: all .3s ;
-  transition: all .3s ;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .hover\:transition-600:hover {
-  -webkit-transition: all .6s ;
-  transition: all .6s ;
+  -webkit-transition: all .6s;
+  transition: all .6s;
 }
 
 .hover\:transition-300-ease-in-out:hover {
@@ -13155,13 +13155,13 @@ video {
 }
 
 .focus\:transition-300:focus {
-  -webkit-transition: all .3s ;
-  transition: all .3s ;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .focus\:transition-600:focus {
-  -webkit-transition: all .6s ;
-  transition: all .6s ;
+  -webkit-transition: all .6s;
+  transition: all .6s;
 }
 
 .focus\:transition-300-ease-in-out:focus {
@@ -13169,7 +13169,7 @@ video {
   transition: all .3s ease-in-out;
 }
 
-.flex-center{
+.flex-center {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -13178,19 +13178,19 @@ video {
           justify-content: center;
 }
 
-.rounded-50{
+.rounded-50 {
   border-radius: 50%;
 }
 
-.box-sizing-content{
+.box-sizing-content {
   box-sizing: content-box;
 }
 
-.box-sizing-border{
+.box-sizing-border {
   box-sizing: border-box;
 }
 
-.hover\:flex-center:hover{
+.hover\:flex-center:hover {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -13199,19 +13199,19 @@ video {
           justify-content: center;
 }
 
-.hover\:rounded-50:hover{
+.hover\:rounded-50:hover {
   border-radius: 50%;
 }
 
-.hover\:box-sizing-content:hover{
+.hover\:box-sizing-content:hover {
   box-sizing: content-box;
 }
 
-.hover\:box-sizing-border:hover{
+.hover\:box-sizing-border:hover {
   box-sizing: border-box;
 }
 
-.focus\:flex-center:focus{
+.focus\:flex-center:focus {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
@@ -13220,20 +13220,20 @@ video {
           justify-content: center;
 }
 
-.focus\:rounded-50:focus{
+.focus\:rounded-50:focus {
   border-radius: 50%;
 }
 
-.focus\:box-sizing-content:focus{
+.focus\:box-sizing-content:focus {
   box-sizing: content-box;
 }
 
-.focus\:box-sizing-border:focus{
+.focus\:box-sizing-border:focus {
   box-sizing: border-box;
 }
 
-.bg-anchored{
-  background-color: rgba(0,0,50,0.4);
+.bg-anchored {
+  background-color: rgba(0, 0, 50, 0.4);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -13241,54 +13241,37 @@ video {
   background-blend-mode: overlay;
 }
 
-.menu-icon--opened:checked~span:nth-of-type(1){
-  top: 40%;
-  -webkit-transform: rotate(135deg);
-  transform: rotate(135deg);
-}
-
-.menu-icon--opened:checked~span:nth-of-type(2){
-  left: -4rem;
-  opacity: 0;
-}
-
-.menu-icon--opened:checked~span:nth-of-type(3){
-  top: 40%;
-  -webkit-transform: rotate(-135deg);
-  transform: rotate(-135deg);
-}
-
-.scale-border-on-hover{
+.scale-border-on-hover {
   position: relative;
 }
 
-.scale-border-on-hover.active::after{
+.scale-border-on-hover.active::after {
   -webkit-transform: scaleX(1) !important;
           transform: scaleX(1) !important;
 }
 
-.scale-border-on-hover::after{
+.scale-border-on-hover::after {
   content: "";
   height: auto;
   bottom: 0;
   left: 0;
   right: auto;
-  top:0;
+  top: 0;
   width: 3px;
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
   position: absolute;
   border: none;
   background-color: #edf2f7;
-  -webkit-transition: all .6s ;
-  transition: all .6s ;
+  -webkit-transition: all .6s;
+  transition: all .6s;
 }
 
-.scale-border-on-hover:hover::after{
+.scale-border-on-hover:hover::after {
   -webkit-transform: scaleY(1);
           transform: scaleY(1);
-  -webkit-transition: all .6s ;
-  transition: all .6s ;
+  -webkit-transition: all .6s;
+  transition: all .6s;
 }
 
 @media (min-width: 768px) {
@@ -13297,20 +13280,20 @@ video {
     bottom: 0;
     left: 0;
     right: 0;
-    top:auto;
+    top: auto;
     width: auto;
     -webkit-transform: scaleX(0);
             transform: scaleX(0);
     background-color: #4a5568;
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
-  .scale-border-on-hover:hover::after{
+  .scale-border-on-hover:hover::after {
     -webkit-transform: scaleX(1);
             transform: scaleX(1);
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 }
 
@@ -25768,13 +25751,13 @@ video {
   }
 
   .sm\:transition-300 {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .sm\:transition-600 {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .sm\:transition-300-ease-in-out {
@@ -25783,13 +25766,13 @@ video {
   }
 
   .sm\:hover\:transition-300:hover {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .sm\:hover\:transition-600:hover {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .sm\:hover\:transition-300-ease-in-out:hover {
@@ -25798,13 +25781,13 @@ video {
   }
 
   .sm\:focus\:transition-300:focus {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .sm\:focus\:transition-600:focus {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .sm\:focus\:transition-300-ease-in-out:focus {
@@ -25812,7 +25795,7 @@ video {
     transition: all .3s ease-in-out;
   }
 
-  .sm\:flex-center{
+  .sm\:flex-center {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -25821,19 +25804,19 @@ video {
             justify-content: center;
   }
 
-  .sm\:rounded-50{
+  .sm\:rounded-50 {
     border-radius: 50%;
   }
 
-  .sm\:box-sizing-content{
+  .sm\:box-sizing-content {
     box-sizing: content-box;
   }
 
-  .sm\:box-sizing-border{
+  .sm\:box-sizing-border {
     box-sizing: border-box;
   }
 
-  .sm\:hover\:flex-center:hover{
+  .sm\:hover\:flex-center:hover {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -25842,19 +25825,19 @@ video {
             justify-content: center;
   }
 
-  .sm\:hover\:rounded-50:hover{
+  .sm\:hover\:rounded-50:hover {
     border-radius: 50%;
   }
 
-  .sm\:hover\:box-sizing-content:hover{
+  .sm\:hover\:box-sizing-content:hover {
     box-sizing: content-box;
   }
 
-  .sm\:hover\:box-sizing-border:hover{
+  .sm\:hover\:box-sizing-border:hover {
     box-sizing: border-box;
   }
 
-  .sm\:focus\:flex-center:focus{
+  .sm\:focus\:flex-center:focus {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -25863,15 +25846,15 @@ video {
             justify-content: center;
   }
 
-  .sm\:focus\:rounded-50:focus{
+  .sm\:focus\:rounded-50:focus {
     border-radius: 50%;
   }
 
-  .sm\:focus\:box-sizing-content:focus{
+  .sm\:focus\:box-sizing-content:focus {
     box-sizing: content-box;
   }
 
-  .sm\:focus\:box-sizing-border:focus{
+  .sm\:focus\:box-sizing-border:focus {
     box-sizing: border-box;
   }
 }
@@ -38330,13 +38313,13 @@ video {
   }
 
   .md\:transition-300 {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .md\:transition-600 {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .md\:transition-300-ease-in-out {
@@ -38345,13 +38328,13 @@ video {
   }
 
   .md\:hover\:transition-300:hover {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .md\:hover\:transition-600:hover {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .md\:hover\:transition-300-ease-in-out:hover {
@@ -38360,13 +38343,13 @@ video {
   }
 
   .md\:focus\:transition-300:focus {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .md\:focus\:transition-600:focus {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .md\:focus\:transition-300-ease-in-out:focus {
@@ -38374,7 +38357,7 @@ video {
     transition: all .3s ease-in-out;
   }
 
-  .md\:flex-center{
+  .md\:flex-center {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -38383,19 +38366,19 @@ video {
             justify-content: center;
   }
 
-  .md\:rounded-50{
+  .md\:rounded-50 {
     border-radius: 50%;
   }
 
-  .md\:box-sizing-content{
+  .md\:box-sizing-content {
     box-sizing: content-box;
   }
 
-  .md\:box-sizing-border{
+  .md\:box-sizing-border {
     box-sizing: border-box;
   }
 
-  .md\:hover\:flex-center:hover{
+  .md\:hover\:flex-center:hover {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -38404,19 +38387,19 @@ video {
             justify-content: center;
   }
 
-  .md\:hover\:rounded-50:hover{
+  .md\:hover\:rounded-50:hover {
     border-radius: 50%;
   }
 
-  .md\:hover\:box-sizing-content:hover{
+  .md\:hover\:box-sizing-content:hover {
     box-sizing: content-box;
   }
 
-  .md\:hover\:box-sizing-border:hover{
+  .md\:hover\:box-sizing-border:hover {
     box-sizing: border-box;
   }
 
-  .md\:focus\:flex-center:focus{
+  .md\:focus\:flex-center:focus {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -38425,15 +38408,15 @@ video {
             justify-content: center;
   }
 
-  .md\:focus\:rounded-50:focus{
+  .md\:focus\:rounded-50:focus {
     border-radius: 50%;
   }
 
-  .md\:focus\:box-sizing-content:focus{
+  .md\:focus\:box-sizing-content:focus {
     box-sizing: content-box;
   }
 
-  .md\:focus\:box-sizing-border:focus{
+  .md\:focus\:box-sizing-border:focus {
     box-sizing: border-box;
   }
 }
@@ -50892,13 +50875,13 @@ video {
   }
 
   .lg\:transition-300 {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .lg\:transition-600 {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .lg\:transition-300-ease-in-out {
@@ -50907,13 +50890,13 @@ video {
   }
 
   .lg\:hover\:transition-300:hover {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .lg\:hover\:transition-600:hover {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .lg\:hover\:transition-300-ease-in-out:hover {
@@ -50922,13 +50905,13 @@ video {
   }
 
   .lg\:focus\:transition-300:focus {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .lg\:focus\:transition-600:focus {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .lg\:focus\:transition-300-ease-in-out:focus {
@@ -50936,7 +50919,7 @@ video {
     transition: all .3s ease-in-out;
   }
 
-  .lg\:flex-center{
+  .lg\:flex-center {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -50945,19 +50928,19 @@ video {
             justify-content: center;
   }
 
-  .lg\:rounded-50{
+  .lg\:rounded-50 {
     border-radius: 50%;
   }
 
-  .lg\:box-sizing-content{
+  .lg\:box-sizing-content {
     box-sizing: content-box;
   }
 
-  .lg\:box-sizing-border{
+  .lg\:box-sizing-border {
     box-sizing: border-box;
   }
 
-  .lg\:hover\:flex-center:hover{
+  .lg\:hover\:flex-center:hover {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -50966,19 +50949,19 @@ video {
             justify-content: center;
   }
 
-  .lg\:hover\:rounded-50:hover{
+  .lg\:hover\:rounded-50:hover {
     border-radius: 50%;
   }
 
-  .lg\:hover\:box-sizing-content:hover{
+  .lg\:hover\:box-sizing-content:hover {
     box-sizing: content-box;
   }
 
-  .lg\:hover\:box-sizing-border:hover{
+  .lg\:hover\:box-sizing-border:hover {
     box-sizing: border-box;
   }
 
-  .lg\:focus\:flex-center:focus{
+  .lg\:focus\:flex-center:focus {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -50987,15 +50970,15 @@ video {
             justify-content: center;
   }
 
-  .lg\:focus\:rounded-50:focus{
+  .lg\:focus\:rounded-50:focus {
     border-radius: 50%;
   }
 
-  .lg\:focus\:box-sizing-content:focus{
+  .lg\:focus\:box-sizing-content:focus {
     box-sizing: content-box;
   }
 
-  .lg\:focus\:box-sizing-border:focus{
+  .lg\:focus\:box-sizing-border:focus {
     box-sizing: border-box;
   }
 }
@@ -63454,13 +63437,13 @@ video {
   }
 
   .xl\:transition-300 {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .xl\:transition-600 {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .xl\:transition-300-ease-in-out {
@@ -63469,13 +63452,13 @@ video {
   }
 
   .xl\:hover\:transition-300:hover {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .xl\:hover\:transition-600:hover {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .xl\:hover\:transition-300-ease-in-out:hover {
@@ -63484,13 +63467,13 @@ video {
   }
 
   .xl\:focus\:transition-300:focus {
-    -webkit-transition: all .3s ;
-    transition: all .3s ;
+    -webkit-transition: all .3s;
+    transition: all .3s;
   }
 
   .xl\:focus\:transition-600:focus {
-    -webkit-transition: all .6s ;
-    transition: all .6s ;
+    -webkit-transition: all .6s;
+    transition: all .6s;
   }
 
   .xl\:focus\:transition-300-ease-in-out:focus {
@@ -63498,7 +63481,7 @@ video {
     transition: all .3s ease-in-out;
   }
 
-  .xl\:flex-center{
+  .xl\:flex-center {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -63507,19 +63490,19 @@ video {
             justify-content: center;
   }
 
-  .xl\:rounded-50{
+  .xl\:rounded-50 {
     border-radius: 50%;
   }
 
-  .xl\:box-sizing-content{
+  .xl\:box-sizing-content {
     box-sizing: content-box;
   }
 
-  .xl\:box-sizing-border{
+  .xl\:box-sizing-border {
     box-sizing: border-box;
   }
 
-  .xl\:hover\:flex-center:hover{
+  .xl\:hover\:flex-center:hover {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -63528,19 +63511,19 @@ video {
             justify-content: center;
   }
 
-  .xl\:hover\:rounded-50:hover{
+  .xl\:hover\:rounded-50:hover {
     border-radius: 50%;
   }
 
-  .xl\:hover\:box-sizing-content:hover{
+  .xl\:hover\:box-sizing-content:hover {
     box-sizing: content-box;
   }
 
-  .xl\:hover\:box-sizing-border:hover{
+  .xl\:hover\:box-sizing-border:hover {
     box-sizing: border-box;
   }
 
-  .xl\:focus\:flex-center:focus{
+  .xl\:focus\:flex-center:focus {
     display: -webkit-box;
     display: flex;
     -webkit-box-align: center;
@@ -63549,15 +63532,15 @@ video {
             justify-content: center;
   }
 
-  .xl\:focus\:rounded-50:focus{
+  .xl\:focus\:rounded-50:focus {
     border-radius: 50%;
   }
 
-  .xl\:focus\:box-sizing-content:focus{
+  .xl\:focus\:box-sizing-content:focus {
     box-sizing: content-box;
   }
 
-  .xl\:focus\:box-sizing-border:focus{
+  .xl\:focus\:box-sizing-border:focus {
     box-sizing: border-box;
   }
 }

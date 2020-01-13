@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Menu from '../Menu/Menu';
 import './Nav.css';
 
 
@@ -16,17 +17,7 @@ const Nav: React.FC = () => {
                 </div>
 
 
-                <label id="menu-icon" htmlFor="toggle-control" className="cursor-pointer w-10 h-8 fixed md:relative right-0 transition-300 rotate-0 z-50 md:hidden">
-                    <input type="checkbox" 
-                            id="toggle-control" 
-                            className="menu-icon--opened absolute opacity-0" 
-                            checked={isPaneOpen} 
-                            onChange={(evt) => setIsPaneOpen(evt.target.checked)}
-                    />
-                    <span className="top-0 block absolute h-2 w-full bg-gray-600 rounded-lg opacity-1 left-0 rotate-0 transition-300-ease-in-out"></span>
-                    <span className="top-p4/10 block absolute h-2 w-full bg-gray-600 rounded-lg opacity-1 left-0 rotate-0 transition-300-ease-in-out"></span>
-                    <span className="top-p8/10 block absolute h-2 w-full bg-gray-600 rounded-lg opacity-1 left-0 rotate-0 transition-300-ease-in-out"></span>
-                </label>
+                <Menu menuState={isPaneOpen} onMenuStateChange={setIsPaneOpen} extraClasses={'fixed md:relative right-0 z-50 md:hidden'}/>
 
             </section>
             <ul className={`pt-8 bg-gray-900 fixed top-0 bottom-0 right-${isPaneOpen ? '0' : 'm64'} w-64 z-40 transition-300 text-white flex flex-col justify-around 
