@@ -10104,6 +10104,13 @@ video {
   left: 8rem;
 }
 
+.inset-p40 {
+  top: 10rem;
+  right: 10rem;
+  bottom: 10rem;
+  left: 10rem;
+}
+
 .inset-p64 {
   top: 16rem;
   right: 16rem;
@@ -10165,6 +10172,13 @@ video {
   right: -8rem;
   bottom: -8rem;
   left: -8rem;
+}
+
+.inset-m40 {
+  top: -10rem;
+  right: -10rem;
+  bottom: -10rem;
+  left: -10rem;
 }
 
 .inset-m64 {
@@ -10574,6 +10588,16 @@ video {
   left: 8rem;
 }
 
+.inset-y-p40 {
+  top: 10rem;
+  bottom: 10rem;
+}
+
+.inset-x-p40 {
+  right: 10rem;
+  left: 10rem;
+}
+
 .inset-y-p64 {
   top: 16rem;
   bottom: 16rem;
@@ -10662,6 +10686,16 @@ video {
 .inset-x-m32 {
   right: -8rem;
   left: -8rem;
+}
+
+.inset-y-m40 {
+  top: -10rem;
+  bottom: -10rem;
+}
+
+.inset-x-m40 {
+  right: -10rem;
+  left: -10rem;
 }
 
 .inset-y-m64 {
@@ -11314,6 +11348,22 @@ video {
   left: 8rem;
 }
 
+.top-p40 {
+  top: 10rem;
+}
+
+.right-p40 {
+  right: 10rem;
+}
+
+.bottom-p40 {
+  bottom: 10rem;
+}
+
+.left-p40 {
+  left: 10rem;
+}
+
 .top-p64 {
   top: 16rem;
 }
@@ -11456,6 +11506,22 @@ video {
 
 .left-m32 {
   left: -8rem;
+}
+
+.top-m40 {
+  top: -10rem;
+}
+
+.right-m40 {
+  right: -10rem;
+}
+
+.bottom-m40 {
+  bottom: -10rem;
+}
+
+.left-m40 {
+  left: -10rem;
 }
 
 .top-m64 {
@@ -13247,6 +13313,24 @@ video {
   transition: all .3s ease-in-out;
 }
 
+.hyphens-auto{
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.hyphens-manual{
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+
+.hyphens-none{
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
 .hover\:transition-300:hover {
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -13262,6 +13346,24 @@ video {
   transition: all .3s ease-in-out;
 }
 
+.hover\:hyphens-auto:hover{
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.hover\:hyphens-manual:hover{
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+
+.hover\:hyphens-none:hover{
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
 .focus\:transition-300:focus {
   -webkit-transition: all .3s;
   transition: all .3s;
@@ -13275,6 +13377,24 @@ video {
 .focus\:transition-300-ease-in-out:focus {
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+}
+
+.focus\:hyphens-auto:focus{
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+.focus\:hyphens-manual:focus{
+  -webkit-hyphens: manual;
+  -ms-hyphens: manual;
+  hyphens: manual;
+}
+
+.focus\:hyphens-none:focus{
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
 }
 
 .flex-center {
@@ -22883,6 +23003,13 @@ video {
     left: 8rem;
   }
 
+  .sm\:inset-p40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
   .sm\:inset-p64 {
     top: 16rem;
     right: 16rem;
@@ -22944,6 +23071,13 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .sm\:inset-m40 {
+    top: -10rem;
+    right: -10rem;
+    bottom: -10rem;
+    left: -10rem;
   }
 
   .sm\:inset-m64 {
@@ -23353,6 +23487,16 @@ video {
     left: 8rem;
   }
 
+  .sm\:inset-y-p40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .sm\:inset-x-p40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
   .sm\:inset-y-p64 {
     top: 16rem;
     bottom: 16rem;
@@ -23441,6 +23585,16 @@ video {
   .sm\:inset-x-m32 {
     right: -8rem;
     left: -8rem;
+  }
+
+  .sm\:inset-y-m40 {
+    top: -10rem;
+    bottom: -10rem;
+  }
+
+  .sm\:inset-x-m40 {
+    right: -10rem;
+    left: -10rem;
   }
 
   .sm\:inset-y-m64 {
@@ -24093,6 +24247,22 @@ video {
     left: 8rem;
   }
 
+  .sm\:top-p40 {
+    top: 10rem;
+  }
+
+  .sm\:right-p40 {
+    right: 10rem;
+  }
+
+  .sm\:bottom-p40 {
+    bottom: 10rem;
+  }
+
+  .sm\:left-p40 {
+    left: 10rem;
+  }
+
   .sm\:top-p64 {
     top: 16rem;
   }
@@ -24235,6 +24405,22 @@ video {
 
   .sm\:left-m32 {
     left: -8rem;
+  }
+
+  .sm\:top-m40 {
+    top: -10rem;
+  }
+
+  .sm\:right-m40 {
+    right: -10rem;
+  }
+
+  .sm\:bottom-m40 {
+    bottom: -10rem;
+  }
+
+  .sm\:left-m40 {
+    left: -10rem;
   }
 
   .sm\:top-m64 {
@@ -25981,6 +26167,24 @@ video {
     transition: all .3s ease-in-out;
   }
 
+  .sm\:hyphens-auto{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .sm\:hyphens-manual{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .sm\:hyphens-none{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
   .sm\:hover\:transition-300:hover {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -25996,6 +26200,24 @@ video {
     transition: all .3s ease-in-out;
   }
 
+  .sm\:hover\:hyphens-auto:hover{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .sm\:hover\:hyphens-manual:hover{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .sm\:hover\:hyphens-none:hover{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
   .sm\:focus\:transition-300:focus {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -26009,6 +26231,24 @@ video {
   .sm\:focus\:transition-300-ease-in-out:focus {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+  }
+
+  .sm\:focus\:hyphens-auto:focus{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .sm\:focus\:hyphens-manual:focus{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .sm\:focus\:hyphens-none:focus{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
   }
 
   .sm\:flex-center {
@@ -35553,6 +35793,13 @@ video {
     left: 8rem;
   }
 
+  .md\:inset-p40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
   .md\:inset-p64 {
     top: 16rem;
     right: 16rem;
@@ -35614,6 +35861,13 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .md\:inset-m40 {
+    top: -10rem;
+    right: -10rem;
+    bottom: -10rem;
+    left: -10rem;
   }
 
   .md\:inset-m64 {
@@ -36023,6 +36277,16 @@ video {
     left: 8rem;
   }
 
+  .md\:inset-y-p40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .md\:inset-x-p40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
   .md\:inset-y-p64 {
     top: 16rem;
     bottom: 16rem;
@@ -36111,6 +36375,16 @@ video {
   .md\:inset-x-m32 {
     right: -8rem;
     left: -8rem;
+  }
+
+  .md\:inset-y-m40 {
+    top: -10rem;
+    bottom: -10rem;
+  }
+
+  .md\:inset-x-m40 {
+    right: -10rem;
+    left: -10rem;
   }
 
   .md\:inset-y-m64 {
@@ -36763,6 +37037,22 @@ video {
     left: 8rem;
   }
 
+  .md\:top-p40 {
+    top: 10rem;
+  }
+
+  .md\:right-p40 {
+    right: 10rem;
+  }
+
+  .md\:bottom-p40 {
+    bottom: 10rem;
+  }
+
+  .md\:left-p40 {
+    left: 10rem;
+  }
+
   .md\:top-p64 {
     top: 16rem;
   }
@@ -36905,6 +37195,22 @@ video {
 
   .md\:left-m32 {
     left: -8rem;
+  }
+
+  .md\:top-m40 {
+    top: -10rem;
+  }
+
+  .md\:right-m40 {
+    right: -10rem;
+  }
+
+  .md\:bottom-m40 {
+    bottom: -10rem;
+  }
+
+  .md\:left-m40 {
+    left: -10rem;
   }
 
   .md\:top-m64 {
@@ -38651,6 +38957,24 @@ video {
     transition: all .3s ease-in-out;
   }
 
+  .md\:hyphens-auto{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .md\:hyphens-manual{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .md\:hyphens-none{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
   .md\:hover\:transition-300:hover {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -38666,6 +38990,24 @@ video {
     transition: all .3s ease-in-out;
   }
 
+  .md\:hover\:hyphens-auto:hover{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .md\:hover\:hyphens-manual:hover{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .md\:hover\:hyphens-none:hover{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
   .md\:focus\:transition-300:focus {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -38679,6 +39021,24 @@ video {
   .md\:focus\:transition-300-ease-in-out:focus {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+  }
+
+  .md\:focus\:hyphens-auto:focus{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .md\:focus\:hyphens-manual:focus{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .md\:focus\:hyphens-none:focus{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
   }
 
   .md\:flex-center {
@@ -48223,6 +48583,13 @@ video {
     left: 8rem;
   }
 
+  .lg\:inset-p40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
   .lg\:inset-p64 {
     top: 16rem;
     right: 16rem;
@@ -48284,6 +48651,13 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .lg\:inset-m40 {
+    top: -10rem;
+    right: -10rem;
+    bottom: -10rem;
+    left: -10rem;
   }
 
   .lg\:inset-m64 {
@@ -48693,6 +49067,16 @@ video {
     left: 8rem;
   }
 
+  .lg\:inset-y-p40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .lg\:inset-x-p40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
   .lg\:inset-y-p64 {
     top: 16rem;
     bottom: 16rem;
@@ -48781,6 +49165,16 @@ video {
   .lg\:inset-x-m32 {
     right: -8rem;
     left: -8rem;
+  }
+
+  .lg\:inset-y-m40 {
+    top: -10rem;
+    bottom: -10rem;
+  }
+
+  .lg\:inset-x-m40 {
+    right: -10rem;
+    left: -10rem;
   }
 
   .lg\:inset-y-m64 {
@@ -49433,6 +49827,22 @@ video {
     left: 8rem;
   }
 
+  .lg\:top-p40 {
+    top: 10rem;
+  }
+
+  .lg\:right-p40 {
+    right: 10rem;
+  }
+
+  .lg\:bottom-p40 {
+    bottom: 10rem;
+  }
+
+  .lg\:left-p40 {
+    left: 10rem;
+  }
+
   .lg\:top-p64 {
     top: 16rem;
   }
@@ -49575,6 +49985,22 @@ video {
 
   .lg\:left-m32 {
     left: -8rem;
+  }
+
+  .lg\:top-m40 {
+    top: -10rem;
+  }
+
+  .lg\:right-m40 {
+    right: -10rem;
+  }
+
+  .lg\:bottom-m40 {
+    bottom: -10rem;
+  }
+
+  .lg\:left-m40 {
+    left: -10rem;
   }
 
   .lg\:top-m64 {
@@ -51321,6 +51747,24 @@ video {
     transition: all .3s ease-in-out;
   }
 
+  .lg\:hyphens-auto{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .lg\:hyphens-manual{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .lg\:hyphens-none{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
   .lg\:hover\:transition-300:hover {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -51336,6 +51780,24 @@ video {
     transition: all .3s ease-in-out;
   }
 
+  .lg\:hover\:hyphens-auto:hover{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .lg\:hover\:hyphens-manual:hover{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .lg\:hover\:hyphens-none:hover{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
   .lg\:focus\:transition-300:focus {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -51349,6 +51811,24 @@ video {
   .lg\:focus\:transition-300-ease-in-out:focus {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+  }
+
+  .lg\:focus\:hyphens-auto:focus{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .lg\:focus\:hyphens-manual:focus{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .lg\:focus\:hyphens-none:focus{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
   }
 
   .lg\:flex-center {
@@ -60893,6 +61373,13 @@ video {
     left: 8rem;
   }
 
+  .xl\:inset-p40 {
+    top: 10rem;
+    right: 10rem;
+    bottom: 10rem;
+    left: 10rem;
+  }
+
   .xl\:inset-p64 {
     top: 16rem;
     right: 16rem;
@@ -60954,6 +61441,13 @@ video {
     right: -8rem;
     bottom: -8rem;
     left: -8rem;
+  }
+
+  .xl\:inset-m40 {
+    top: -10rem;
+    right: -10rem;
+    bottom: -10rem;
+    left: -10rem;
   }
 
   .xl\:inset-m64 {
@@ -61363,6 +61857,16 @@ video {
     left: 8rem;
   }
 
+  .xl\:inset-y-p40 {
+    top: 10rem;
+    bottom: 10rem;
+  }
+
+  .xl\:inset-x-p40 {
+    right: 10rem;
+    left: 10rem;
+  }
+
   .xl\:inset-y-p64 {
     top: 16rem;
     bottom: 16rem;
@@ -61451,6 +61955,16 @@ video {
   .xl\:inset-x-m32 {
     right: -8rem;
     left: -8rem;
+  }
+
+  .xl\:inset-y-m40 {
+    top: -10rem;
+    bottom: -10rem;
+  }
+
+  .xl\:inset-x-m40 {
+    right: -10rem;
+    left: -10rem;
   }
 
   .xl\:inset-y-m64 {
@@ -62103,6 +62617,22 @@ video {
     left: 8rem;
   }
 
+  .xl\:top-p40 {
+    top: 10rem;
+  }
+
+  .xl\:right-p40 {
+    right: 10rem;
+  }
+
+  .xl\:bottom-p40 {
+    bottom: 10rem;
+  }
+
+  .xl\:left-p40 {
+    left: 10rem;
+  }
+
   .xl\:top-p64 {
     top: 16rem;
   }
@@ -62245,6 +62775,22 @@ video {
 
   .xl\:left-m32 {
     left: -8rem;
+  }
+
+  .xl\:top-m40 {
+    top: -10rem;
+  }
+
+  .xl\:right-m40 {
+    right: -10rem;
+  }
+
+  .xl\:bottom-m40 {
+    bottom: -10rem;
+  }
+
+  .xl\:left-m40 {
+    left: -10rem;
   }
 
   .xl\:top-m64 {
@@ -63991,6 +64537,24 @@ video {
     transition: all .3s ease-in-out;
   }
 
+  .xl\:hyphens-auto{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .xl\:hyphens-manual{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .xl\:hyphens-none{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
   .xl\:hover\:transition-300:hover {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -64006,6 +64570,24 @@ video {
     transition: all .3s ease-in-out;
   }
 
+  .xl\:hover\:hyphens-auto:hover{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .xl\:hover\:hyphens-manual:hover{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .xl\:hover\:hyphens-none:hover{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
   .xl\:focus\:transition-300:focus {
     -webkit-transition: all .3s;
     transition: all .3s;
@@ -64019,6 +64601,24 @@ video {
   .xl\:focus\:transition-300-ease-in-out:focus {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+  }
+
+  .xl\:focus\:hyphens-auto:focus{
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .xl\:focus\:hyphens-manual:focus{
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+  }
+
+  .xl\:focus\:hyphens-none:focus{
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
   }
 
   .xl\:flex-center {

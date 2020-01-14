@@ -40,6 +40,7 @@ module.exports = {
                 'p8': '2rem',
                 'p16': '4rem',
                 'p32': '8rem',
+                'p40': '10rem',
                 'p64': '16rem',
                 'm1': '-0.25rem',
                 'm2': '-0.5rem',
@@ -49,6 +50,7 @@ module.exports = {
                 'm8': '-2rem',
                 'm16': '-4rem',
                 'm32': '-8rem',
+                'm40': '-10rem',
                 'm64': '-16rem',
             },
             opacity: {
