@@ -18,3 +18,7 @@ body *{
   margin-left: 0;
 }
 
+.section.row{
+  justify-content: center;
+}
+
