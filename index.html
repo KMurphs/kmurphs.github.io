@@ -1,174 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-        
-        <!-- Update these with your own fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
-        
-        <link rel="stylesheet" href="css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stephane K.</title>
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- ===================== Navigation Bar ============================-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="mr-auto"></div>
+      <ul class="navbar-nav">
+        <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#">Services</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#">Portfolio</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#">Pages</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#">Blog</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- ===================== End Navigation Bar ============================-->
 
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="imgs/devjane.png" alt="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
+
+
+  <!-- ===================== Header/Banner Section ============================-->
+  <section class="section row container-fluid section--banner">
+    <div class="col-md-6">
+      <img src="./img/banner/banner-image.png" alt="banner-img" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <h1 class="title-text">Hey</h1>
+      <h2 class="title-text text-uppercase">I am Stephane</h2>
+      <h5 class="title-text text-uppercase">Senior Web Developer<br/>Software/Electronic Engineer<br/>Data Science Enthusiast</h5>
+      <div class="site-buttons">
+          <div class="d-flex flex-column">
+              <button type="button" class="btn btn-primary text-uppercase">hire me</button>
+              <button type="button" class="btn btn-secondary text-uppercase">Get cv</button>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== End Header/Banner Section ============================-->
 
 
 
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Jane Smith</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src="imgs/dev-jane-01.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
-        </section>
-        
-        
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design + Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>E-Commerce</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>WordPress</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            
-            <a href="#work" class="btn">My Work</a>
-        </section>
-        
-        
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Designer & developer based out of NYC</p>
-           
-           <div class="about-me__body">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-           </div>
-           
-           <img src="imgs/dev-jane-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
-        </section>
-        
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="imgs/portfolio-01.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 02 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="imgs/portfolio-02.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 03 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="imgs/portfolio-03.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="imgs/portfolio-04.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 05 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="imgs/portfolio-05.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 06 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="imgs/portfolio-06.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 07 -->
-                <a href="portfolio-item.html" class="portfolio__item">
-                    <img src="imgs/portfolio-07.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 08 -->
-                <a href="#" class="portfolio__item">
-                    <img src="imgs/portfolio-08.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 09 -->
-                <a href="#" class="portfolio__item">
-                    <img src="imgs/portfolio-09.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 0 0-->
-                <a href="#" class="portfolio__item">
-                    <img src="imgs/portfolio-10.jpg" alt="" class="portfolio__img">
-                </a>
-            </div>
-        </section>
-        
-        
-        <!-- Footer -->
-        <footer class="footer">
-            <!-- replace with your own email address -->
-            <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://codepen.io">
-                        <i class="fab fa-codepen"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="http://dribbble.com">
-                        <i class="fab fa-dribbble"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
-        
-        
-        <script src="js/index.js"></script>
-        
-    </body>
+  <!-- ===================== About Section ============================-->
+  <section class="section row container-fluid section--about">
+    <div class="col-md-6">
+      <img src="./img/about-us.png" alt="about-img" class="img-fluid">
+    </div>
+    <div class="col-md-6">
+      <h2>
+        <span>Let me</span>
+        <span>introduce</span>
+        <span>myself</span>
+      </h2>
+      <div>
+        <h3 class="subtitle">
+            I solve Problems
+        </h3>
+        <p>
+            Hi, My name is Stephane. And I love to solve problems using technological tools. 
+            I have over 7 years of industry experience, working on various projects ranging from 
+            embedded software to desktop applications and web development.
+        </p>
+        <h3 class="subtitle">
+            Full Stack Developer
+        </h3>
+        <p>
+            I specialise in React for front-end applications, and NodeJS, Python and C# for backend 
+            development. I have experience in developping and managing containerized applications 
+            using docker and kubernetes. 
+        </p>
+        <h3 class="subtitle">
+            Blogger
+        </h3>
+        <p>
+            I believe that the best way of mastering a topic is by reflecting on and teaching what is learnt.
+            Thus I blog: I blog about topics I find fascinating like OOP and SOLID design principles. 
+            I blog about errors and lessons I have made in past and current projects. God knows there has been 
+            quite a few of those. I blog about things I am learning and passionate about. 
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- ===================== End About Section ============================-->
+
+
+
+
+
+  <!-- ===================== Technologies Section ============================-->
+  <section class="section row container-fluid section--technologies">
+    <div class="col-xl-8">
+      hey
+    </div>
+    <div class="col-xl-4">
+      hey2
+    </div>
+  </section>
+  <!-- ===================== End Technologies Section ============================-->
+
+
+
+
+
+
+  <script src="./js/jquery.3.4.1.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
 </html>
