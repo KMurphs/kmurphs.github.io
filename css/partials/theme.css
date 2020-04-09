@@ -16,9 +16,27 @@ body *{
   padding: 1rem;
   margin-right: 0; 
   margin-left: 0;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .section.row{
   justify-content: center;
 }
 
+.btn-primary{
+  background: var(--gradient-color);
+}
+.btn-primary:hover{
+ box-shadow: var(--box-shadow);
+}
+.btn-secondary{
+  background: transparent;
+  border-color: var(--primary-color-alt);
+  color: var(--primary-color-alt);
+}
+.btn-secondary:hover{
+  background: var(--gradient-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+}

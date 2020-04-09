@@ -9,11 +9,36 @@
 
 
 
-/* .section--banner{}
-@media (min-width: 1080px){
-  .section--banner{
-    max-width: 1080px;
-    margin: 0 auto;
-  }
-} */
 
+.section--banner h4{
+  font-size: .9rem;
+  line-height: 1.6;
+}
+.section--banner .site-buttons > div{
+  margin: 1rem 0;
+  min-height: 6rem;
+}
+.section--banner img,
+.section--about img{
+  margin-bottom: 2rem;
+}
+
+
+
+
+.section--about h2{
+  margin-bottom: 2rem;
+}
+.section--about .subtitle{
+  margin-top: 2rem;
+}
+
+
+
+
+.section--technologies .single-item{
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin: .5rem;
+  padding: .5rem;
+}
