@@ -210,6 +210,9 @@
   margin-left: auto;
   margin-right: auto;
 }
+.section--projects .card .card-body{
+  padding: .75rem;
+}
 .section--projects .mix,
 .section--projects .mix *{
   -webkit-transition: none;
@@ -217,6 +220,40 @@
   -o-transition: none;
   transition: none; 
 }
+.section--projects .mix{
+  /* padding-left: 1.5rem;
+  padding-right: 1.5rem; */
+  max-width: 400px;
+  margin: 1rem auto;
+}
+.section--projects .card-meta .fa-user{
+  margin-right: .5rem;
+}
+.section--projects .projects-selectors{
+  text-align: center;
+}
+.section--projects .filter-control{
+  padding: .1rem 1.5rem;
+  margin-bottom: .2rem;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid #aaa;
+  outline: none;
+}
+.section--projects .filter-control:focus{
+  outline: none;
+}
+.section--projects .filter-control.mixitup-control-active{
+  background: var(--gradient-color);
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+
+
+
+
 
 
 
@@ -226,7 +263,7 @@
   margin: 0;
   box-shadow: var(--box-shadow);
   margin: 3rem auto;
-  max-width: 350px;
+  max-width: 800px;
 
 }
 .section--testimonials .testimony-img-container{
@@ -235,6 +272,7 @@
 .section--testimonials .testimony-img-container img{
   width: 100%;
 } 
+
 .testimony-text-container{
   padding: 1rem;
   padding-top: 2rem;

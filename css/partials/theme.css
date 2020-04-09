@@ -51,6 +51,12 @@ li{
   font-weight: bold;
 }
 
+.section .section-subtitle{
+  max-width: 800px;
+  line-height: 1.8;
+  margin: 0 auto;
+}
+
 .btn-primary{
   background: var(--gradient-color);
 }
