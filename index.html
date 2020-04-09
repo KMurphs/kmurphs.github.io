@@ -11,7 +11,7 @@
 <body>
   <!-- ===================== Navigation Bar ============================-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><h2 class="gradient-text">SK</h2></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,19 +34,21 @@
 
 
   <!-- ===================== Header/Banner Section ============================-->
-  <section class="section row container-fluid section--banner">
+  <section class="section row container-fluid section--banner flex-sm-row-reverse">
     <div class="col-md-6">
       <img src="./img/banner/banner-image.png" alt="banner-img" class="img-fluid">
     </div>
-    <div class="col-md-6">
-      <h1 class="title-text">Hey</h1>
-      <h2 class="title-text text-uppercase">I am Stephane</h2>
-      <h4 class="title-text text-uppercase">Senior Web Developer<br/>Software/Electronic Engineer<br/>Data Science Enthusiast</h4>
-      <div class="site-buttons">
-          <div class="d-flex flex-column justify-content-between">
-              <button type="button" class="btn btn-primary text-uppercase">hire me</button>
-              <button type="button" class="btn btn-secondary text-uppercase">Get cv</button>
-          </div>
+    <div class="col-md-6 d-sm-flex justify-content-center align-items-center">
+      <div class="">
+        <h1 class="title-text">Hey</h1>
+        <h2 class="title-text text-uppercase">I am Stephane</h2>
+        <h4 class="title-text text-uppercase">Senior Web Developer<br/>Software/Electronic Engineer<br/>Data Science Enthusiast</h4>
+        <div class="site-buttons">
+            <div class="d-flex flex-column flex-sm-row justify-content-between justify-content-sm-start align-items-sm-center">
+                <button type="button" class="btn btn-primary px-sm-5 text-uppercase mr-sm-4">hire me</button>
+                <button type="button" class="btn btn-secondary px-sm-5 text-uppercase">Get cv</button>
+            </div>
+        </div>
       </div>
     </div>
   </section>
@@ -56,7 +58,7 @@
 
   <!-- ===================== About Section ============================-->
   <section class="section row container-fluid section--about">
-    <div class="col-md-6">
+    <div class="col-md-6 d-flex align-items-center">
       <img src="./img/about-us.png" alt="about-img" class="img-fluid">
     </div>
     <div class="col-md-6">
@@ -102,48 +104,106 @@
 
   <!-- ===================== Technologies Section ============================-->
   <section class="section row container-fluid section--technologies">
-    <div class="col-12 row">
-      <h2>Technologies</h2>
+    <div class="col-12">
+      <h2 class="section-title">Technologies</h2>
     </div>
-    <div class="col-xl-8 row">
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo1.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo2.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo3.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo4.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo5.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo6.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo7.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo8.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo9.png" alt="Brand-1 "></div>
+    <div class="col-xl-9 row">
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo1.png" alt="Brand-1 "></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo2.png" alt="Brand-1 "></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo3.png" alt="Brand-1 "></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo4.png" alt="Brand-1 "></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo5.png" alt="Brand-1 "></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo6.png" alt="Brand-1 "></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo7.png" alt="Brand-1 "></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo8.png" alt="Brand-1 "></div></div>
+      <div class="col-sm-6 col-md-4 col-lg-3"><div class="single-item d-flex mx-auto mx-sm-2 justify-content-center align-items-center h-18 p-5"><img class="" src="./img/brands/logo9.png" alt="Brand-1 "></div></div>
     </div>
-    <div class="col-xl-4 subsection--experience">
-      <div class="years-of-experience">
-        <h3>7</h3>
-        <h4>Years<br/>Experience<br/>Working</h4>
-      </div>
-      <div class="cta-call">
-        <span><i class="fas fa-phone-alt fa-3x"></i></span>
-        <div class="call-now">
-            <a href="#" class="text-uppercase">Call Now</a>
-            <span class="">(+91)-800-555-4986</span>
+    <div class="col-xl-3 d-flex align-items-center">
+      <div class="d-flex w-100 flex-column align-items-stretch justify-content-between subsection--experience">
+        <div class="years-of-experience">
+          <h3 class="gradient-text">7</h3>
+          <h4>Years<br/>Experience<br/>Working</h4>
+        </div>
+        <div class="cta-call">
+          <span class="text-primary"><i class="fas fa-phone-alt fa-3x"></i></span>
+          <div class="call-now d-flex flex-column">
+              <a href="#" class="text-uppercase">Call Now</a>
+              <span class="">(+91)-800-555-4986</span>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <!-- ===================== End Technologies Section ============================-->
 
+
+
+
   <!-- ===================== Why-Us Technologies Section ============================-->
   <section class="section row container-fluid section--why-us">
-    <div class="col-12 row">
-      <h1>Why Work With Me</h1>
-      <p>You will find these qualities in all of our products</p>
+    <div class="col-12 my-5 mb-8">
+      <h2 class="section-title">Why Work With Me</h2>
+      <h5 class="text-center">You will find these qualities in all of our products</h5>
     </div>
     <div class="col-12 row">
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo1.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo1.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo1.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo1.png" alt="Brand-1 "></div>
-      <div class="single-item col-sm-6 col-md-4 d-flex mx-auto justify-content-center align-items-center"><img src="./img/brands/logo1.png" alt="Brand-1 "></div>
+        <div class="single-item col-sm-6 col-md-4 col-lg-3">
+            <div class="sevices-img text-center py-4"><img src="./img/services/s2.png" alt="Services-2"></div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                <p class="card-text text-secondary">
+                    Some quick example text to build on the card
+                    title and make up
+                    the bulk of the card's content.
+                </p>
+            </div>
+        </div>
+        <div class="single-item col-sm-6 col-md-4 col-lg-3">
+            <div class="sevices-img text-center py-4"><img src="./img/services/s2.png" alt="Services-2"></div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                <p class="card-text text-secondary">
+                    Some quick example text to build on the card
+                    title and make up
+                    the bulk of the card's content.
+                </p>
+            </div>
+        </div>
+        <div class="single-item col-sm-6 col-md-4 col-lg-3">
+            <div class="sevices-img text-center py-4"><img src="./img/services/s2.png" alt="Services-2"></div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                <p class="card-text text-secondary">
+                    Some quick example text to build on the card
+                    title and make up
+                    the bulk of the card's content.
+                </p>
+            </div>
+        </div>
+        <div class="single-item col-sm-6 col-md-4 col-lg-3">
+            <div class="sevices-img text-center py-4"><img src="./img/services/s2.png" alt="Services-2"></div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                <p class="card-text text-secondary">
+                    Some quick example text to build on the card
+                    title and make up
+                    the bulk of the card's content.
+                </p>
+            </div>
+        </div>
+        <div class="single-item col-sm-6 col-md-4 col-lg-3">
+            <div class="sevices-img text-center py-4"><img src="./img/services/s2.png" alt="Services-2"></div>
+            <div class="card-body text-center">
+                <h5 class="card-title text-uppercase font-roboto">ux/ui desing</h5>
+                <p class="card-text text-secondary">
+                    Some quick example text to build on the card
+                    title and make up
+                    the bulk of the card's content.
+                </p>
+            </div>
+        </div>
+
+
+
     </div>
   </section>
 
@@ -153,9 +213,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
   <!-- ===================== Recent Projects Section ============================-->
   <section class="section row container-fluid section--why-us">
-    <div class="col-12 row">
+    <div class="col-12">
       <h1>Recent Projects</h1>
       <p>You will find these qualities in all of our products</p>
     </div>
@@ -164,39 +233,183 @@
       <button>All</button>
       <button>All</button>
     </div>
-    <div class="col-12 row">
-      
-      <div class="card col-sm-6 col-md-4 col-lg-3">
-        <img src="..." class="card-img-top" alt="...">
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <div>
+            <h5 class="card-title">Card title</h5>
+            <div class="card-meta mb-2 d-flex justify-content-between flex-wrap">
+              <div class="card-text"><small class="text-muted font-size-70"><i class="fa fa-user" arial-hidden="true"></i>Admin</small></div>
+              <div class="card-text"><small class="text-muted font-size-70">March 24, 2020 - 12:35 pm</small></div>
+            </div>
+            <p class="card-text excerpt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div>
+            <p class="card-text ">
+              <ul class="technology__items-list d-flex font-size-70 text-muted flex-wrap">	
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Algorithms and Data Structures</li>     
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Sorting</li>   
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">MongoDB</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 70%;">C#, .NET, ASP.NET </li>    
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">React</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Docker</li>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-secondary font-size-80">Go somewhere</a>
+          </div>
         </div>
       </div>
-            
-      <div class="card col-sm-6 col-md-4 col-lg-3">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-            
-      <div class="card col-sm-6 col-md-4 col-lg-3">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-
     </div>
+
+
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p2.jpg')"></div>
+        <div class="card-body">
+          <div>
+            <h5 class="card-title">Card title</h5>
+            <div class="card-meta mb-2 d-flex justify-content-between flex-wrap">
+              <div class="card-text"><small class="text-muted font-size-70"><i class="fa fa-user" arial-hidden="true"></i>Admin</small></div>
+              <div class="card-text"><small class="text-muted font-size-70">March 24, 2020 - 12:35 pm</small></div>
+            </div>
+            <p class="card-text excerpt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div>
+            <p class="card-text ">
+              <ul class="technology__items-list d-flex font-size-70 text-muted flex-wrap">	
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Algorithms and Data Structures</li>     
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Sorting</li>   
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">MongoDB</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 70%;">C#, .NET, ASP.NET </li>    
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">React</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Docker</li>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-secondary font-size-80">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p3.jpg')"></div>
+        <div class="card-body">
+          <div>
+            <h5 class="card-title">Card title</h5>
+            <div class="card-meta mb-2 d-flex justify-content-between flex-wrap">
+              <div class="card-text"><small class="text-muted font-size-70"><i class="fa fa-user" arial-hidden="true"></i>Admin</small></div>
+              <div class="card-text"><small class="text-muted font-size-70">March 24, 2020 - 12:35 pm</small></div>
+            </div>
+            <p class="card-text excerpt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div>
+            <p class="card-text ">
+              <ul class="technology__items-list d-flex font-size-70 text-muted flex-wrap">	
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Algorithms and Data Structures</li>     
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Sorting</li>   
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">MongoDB</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 70%;">C#, .NET, ASP.NET </li>    
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">React</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Docker</li>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-secondary font-size-80">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p4.jpg')"></div>
+        <div class="card-body">
+          <div>
+            <h5 class="card-title">Card title</h5>
+            <div class="card-meta mb-2 d-flex justify-content-between flex-wrap">
+              <div class="card-text"><small class="text-muted font-size-70"><i class="fa fa-user" arial-hidden="true"></i>Admin</small></div>
+              <div class="card-text"><small class="text-muted font-size-70">March 24, 2020 - 12:35 pm</small></div>
+            </div>
+            <p class="card-text excerpt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div>
+            <p class="card-text ">
+              <ul class="technology__items-list d-flex font-size-70 text-muted flex-wrap">	
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Algorithms and Data Structures</li>     
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Sorting</li>   
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">MongoDB</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 70%;">C#, .NET, ASP.NET </li>    
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">React</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Docker</li>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-secondary font-size-80">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p5.jpg')"></div>
+        <div class="card-body">
+          <div>
+            <h5 class="card-title">Card title</h5>
+            <div class="card-meta mb-2 d-flex justify-content-between flex-wrap">
+              <div class="card-text"><small class="text-muted font-size-70"><i class="fa fa-user" arial-hidden="true"></i>Admin</small></div>
+              <div class="card-text"><small class="text-muted font-size-70">March 24, 2020 - 12:35 pm</small></div>
+            </div>
+            <p class="card-text excerpt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div>
+            <p class="card-text ">
+              <ul class="technology__items-list d-flex font-size-70 text-muted flex-wrap">	
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Algorithms and Data Structures</li>     
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Sorting</li>   
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">MongoDB</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 70%;">C#, .NET, ASP.NET </li>    
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">React</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Docker</li>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-secondary font-size-80">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p6.jpg')"></div>
+        <div class="card-body">
+          <div>
+            <h5 class="card-title">Card title</h5>
+            <div class="card-meta mb-2 d-flex justify-content-between flex-wrap">
+              <div class="card-text"><small class="text-muted font-size-70"><i class="fa fa-user" arial-hidden="true"></i>Admin</small></div>
+              <div class="card-text"><small class="text-muted font-size-70">March 24, 2020 - 12:35 pm</small></div>
+            </div>
+            <p class="card-text excerpt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div>
+            <p class="card-text ">
+              <ul class="technology__items-list d-flex font-size-70 text-muted flex-wrap">	
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Algorithms and Data Structures</li>     
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Sorting</li>   
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">MongoDB</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 70%;">C#, .NET, ASP.NET </li>    
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">React</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Docker</li>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-secondary font-size-80">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </section>
 
   <!-- ===================== End Recent Projects Section ============================-->
@@ -206,7 +419,7 @@
 
 
   <!-- ===================== Testimonies Projects Section ============================-->
-  <section class="section row container-fluid section--testimonies">
+  <section class="section row container-fluid section--testimonials">
       <div class="container">
         <div class="">
             <h1 class="text-uppercase title-h1">Client Say about me</h1>
@@ -217,69 +430,87 @@
         </div>
       </div>
 
-      <div class="container carousel py-lg-5">
 
-              <div class="testimony row">
-                  <div class="col-lg-4 col-md-12 client-img">
-                      <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
-                  </div>
-                  <div class="col-lg-8 col-md-12 about-client">
-                      <h4 class="text-uppercase">John Martin</h4>
-                      <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                          consequuntur ratione, obcaecati corrupti deserunt.</p>
-                  </div>
-              </div>
-              <div class="testimony row">
-                  <div class="col-lg-4 col-md-12 client-img">
-                      <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
-                  </div>
-                  <div class="col-lg-8 col-md-12 about-client">
-                      <h4 class="text-uppercase">Mac Hill</h4>
-                      <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                          consequuntur ratione, obcaecati corrupti deserunt.</p>
-                  </div>
-              </div>
-              <div class="testimony row">
-                <div class="col-lg-4 col-md-12 client-img">
-                    <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
-                </div>
-                <div class="col-lg-8 col-md-12 about-client">
-                    <h4 class="text-uppercase">John Martin</h4>
-                    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                        consequuntur ratione, obcaecati corrupti deserunt.</p>
-                </div>
-            </div>
-            <div class="testimony row">
-                <div class="col-lg-4 col-md-12 client-img">
-                    <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
-                </div>
-                <div class="col-lg-8 col-md-12 about-client">
-                    <h4 class="text-uppercase">Mac Hill</h4>
-                    <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
-                        consequuntur ratione, obcaecati corrupti deserunt.</p>
-                </div>
-            </div>
-            <div class="testimony row">
-              <div class="col-lg-4 col-md-12 client-img">
+      <div id="testimonials-carousel" class="col-12 carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#testimonials-carousel" data-slide-to="1"></li>
+          <li data-target="#testimonials-carousel" data-slide-to="2"></li>
+          <li data-target="#testimonials-carousel" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+
+
+
+
+          <div class="carousel-item active">
+            <div class="testimony row d-block w-75">
+              <div class="col-lg-4 d-flex justify-content-center testimony-img-container">
                   <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
               </div>
-              <div class="col-lg-8 col-md-12 about-client">
+              <div class="col-lg-8 testimony-text-container">
                   <h4 class="text-uppercase">John Martin</h4>
                   <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
                       consequuntur ratione, obcaecati corrupti deserunt.</p>
               </div>
+            </div>
           </div>
-          <div class="testimony row">
-              <div class="col-lg-4 col-md-12 client-img">
-                  <img src="./img/testimonials/t2.jpg" alt="img2" class="img-fluid">
+
+          <div class="carousel-item">
+            <div class="testimony row d-block w-75">
+              <div class="col-lg-4 d-flex justify-content-center testimony-img-container">
+                  <img src="./img/testimonials/t2.jpg" alt="img1" class="img-fluid">
               </div>
-              <div class="col-lg-8 col-md-12 about-client">
-                  <h4 class="text-uppercase">Mac Hill</h4>
+              <div class="col-lg-8 testimony-text-container">
+                  <h4 class="text-uppercase">John Martin</h4>
                   <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
                       consequuntur ratione, obcaecati corrupti deserunt.</p>
               </div>
+            </div>
           </div>
+
+          <div class="carousel-item">
+            <div class="testimony row d-block w-75">
+              <div class="col-lg-4 d-flex justify-content-center testimony-img-container">
+                  <img src="./img/testimonials/t1.jpg" alt="img1" class="img-fluid">
+              </div>
+              <div class="col-lg-8 testimony-text-container">
+                  <h4 class="text-uppercase">John Martin</h4>
+                  <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                      consequuntur ratione, obcaecati corrupti deserunt.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="testimony row d-block w-75">
+              <div class="col-lg-4 d-flex justify-content-center testimony-img-container">
+                  <img src="./img/testimonials/t2.jpg" alt="img1" class="img-fluid">
+              </div>
+              <div class="col-lg-8 testimony-text-container">
+                  <h4 class="text-uppercase">John Martin</h4>
+                  <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem architecto
+                      consequuntur ratione, obcaecati corrupti deserunt.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
+
+
 
   </section>
   <!-- ===================== End Testimonies Projects Section ============================-->

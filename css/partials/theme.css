@@ -12,6 +12,14 @@ body *{
   transition: all .4s; 
 }
 
+ul{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+
 .section{
   padding: 1rem;
   margin-right: 0; 
@@ -19,9 +27,28 @@ body *{
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
-
+@media (min-width: 1180px){
+  .section{
+    margin-right: auto; 
+    margin-left: auto;
+    max-width: 80vw;
+  }
+}
 .section.row{
   justify-content: center;
+}
+
+.section-title{
+  text-transform: uppercase;
+  text-align: center;
+  background: -webkit-linear-gradient(var(--primary-color), var(--primary-color-alt));
+  -clip: text;
+  -background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 2rem auto;
+  margin-top: 4rem;
+  font-weight: bold;
 }
 
 .btn-primary{
@@ -39,4 +66,54 @@ body *{
   background: var(--gradient-color);
   color: white;
   box-shadow: var(--box-shadow);
+}
+
+/* .card-image-container{
+  height: 15rem;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.card-image-container{
+  height: 15rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-attachment: fixed; */
+}
+
+
+.gradient-text{
+  background: -webkit-linear-gradient(var(--primary-color), var(--primary-color-alt));
+  -clip: text;
+  -background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-primary{
+  color: var(--primary-color);
+}
+
+.navbar-brand{
+  font-family: cursive;
+  font-weight: bold;
+  border-radius: 50%;
+  /* box-shadow: var(--box-shadow-smallest); */
+  border: 1px solid #eee;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+}
+.navbar-brand *{
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  /* position: absolute; */
 }

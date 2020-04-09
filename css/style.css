@@ -1,8 +1,11 @@
 /* css variables */ 
-@import url(./partials/fonts.css);
+@import url(./partials/variables.css);
 
 /* css variables */ 
-@import url(./partials/variables.css);
+@import url(./partials/fonts.css);
+
+/* import global styling */ 
+@import url(./partials/utils.css);
 
 /* import global styling */ 
 @import url(./partials/theme.css);
@@ -22,7 +25,17 @@
 .section--about img{
   margin-bottom: 2rem;
 }
-
+@media (min-width: 576px){
+  .section--banner h1{
+    font-size: 3.5rem;
+  }
+  .section--banner h2{
+    font-size: 3rem;
+  }
+  .section--banner h4{
+    font-size: 1.3rem;
+  }
+}
 
 
 
@@ -41,4 +54,92 @@
   border: 1px solid #ddd;
   margin: .5rem;
   padding: .5rem;
+}
+
+.section--technologies .subsection--experience{
+  background-color: var(--primary-color-light);
+  padding: 1.5rem;
+  margin: 22px;
+  margin-top: 3rem;
+  min-height: 15rem;
+}
+@media (min-width: 576px){
+  .section--technologies .subsection--experience{
+
+  }
+}
+.section--technologies .subsection--experience .cta-call,
+.section--technologies .subsection--experience .years-of-experience{
+  display: flex;
+  align-items: flex-start;
+}
+
+.section--technologies .subsection--experience .years-of-experience *:first-child{
+  font-size: 6rem;
+  margin-right: .5rem;
+  line-height: .8;
+}
+
+.section--technologies .subsection--experience .years-of-experience *:nth-child(2){
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.section--technologies .subsection--experience .cta-call *:first-child{
+  margin-right: .5rem;
+}
+.section--technologies .subsection--experience .cta-call a{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+
+.section--why-us .card{
+  margin-bottom: 4rem;
+}
+.section--why-us .card .card-body{
+  padding: .75rem;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+
+
+.section--testimonials .testimony{
+  border: 1px solid #eee;
+  /* padding: 1rem; */
+  margin: 0;
+  box-shadow: var(--box-shadow);
+  margin: 3rem auto;
+  max-width: 350px;
+
+}
+.section--testimonials .testimony-img-container{
+  padding: 2rem;
+}
+.section--testimonials .testimony-img-container img{
+  width: 100%;
+  /* max-width: 15rem;
+  margin: 0 auto;
+  display: block; */
+} 
+.testimony-text-container{
+  padding: 1rem;
+  padding-top: 2rem;
+}
+.testimony-text-container p{
+  color: #777777;
+  font-size: .9rem;
+  font-weight: bold;
+  line-height: 1.8;
+}
+.section--testimonials .carousel-indicators{
+  align-items: center;
+}
+.section--testimonials .carousel-indicators li{
+  background-color: var(--primary-color);
+}
+.section--testimonials .carousel-indicators li.active{
+  height: 5px;
 }

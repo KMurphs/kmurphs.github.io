@@ -2,14 +2,20 @@
   --main-font: 'Roboto', cursive;
 
   --primary-color: #4458dc;
+  --primary-color-light: #e029290a;
   --primary-color-alt: #854fee;
   --gradient-color: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color-alt) 100%);
 
   --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);
   --box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+  --box-shadow-small: 0px 5px 15px rgba(57, 56, 61, 0.205);
+  --box-shadow-smaller: 0px 2px 6px rgba(57, 56, 61, 0.205);
+  --box-shadow-smallest: 0px 1px 3px rgba(57, 56, 61, 0.205);
  
   --title-color: #141313;
   --text-color: #777777;  
   --border-color: #201f1f17;  
 
 }
+
+
