@@ -13,6 +13,67 @@
 
 
 
+
+
+
+
+
+
+
+
+.navbar{
+  padding: 0;
+}
+.navbar-brand{
+  font-family: cursive;
+  font-weight: bold;
+  border-radius: 50%;
+  /* box-shadow: var(--box-shadow-smallest); */
+  border: 1px solid #eee;
+  padding: .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 3rem;
+  height: 3rem;
+  margin: .5rem 1rem;
+}
+.navbar-brand *{
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+  /* position: absolute; */
+}
+.navbar-collapse{
+  align-self: stretch;
+  align-items: stretch;
+}
+.navbar-light .navbar-nav .nav-item{
+  padding: .5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-light .navbar-nav .nav-item:hover{
+  background: var(--gradient-color);
+  color: white;
+}
+.navbar-light .navbar-nav .nav-item:hover a{
+  color: white;
+}
+@media (min-width: 893px){
+  .navbar-light .navbar-nav .nav-item{
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
 .section--banner h4{
   font-size: .9rem;
   line-height: 1.6;
@@ -39,12 +100,25 @@
 
 
 
+
+
+
+
 .section--about h2{
   margin-bottom: 2rem;
 }
 .section--about .subtitle{
   margin-top: 2rem;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,11 +137,7 @@
   margin-top: 3rem;
   min-height: 15rem;
 }
-@media (min-width: 576px){
-  .section--technologies .subsection--experience{
 
-  }
-}
 .section--technologies .subsection--experience .cta-call,
 .section--technologies .subsection--experience .years-of-experience{
   display: flex;
@@ -92,6 +162,33 @@
   font-weight: bold;
 }
 
+@media (min-width: 1080px){
+  .section--technologies .subsection--experience{
+    margin-top: 0;
+    align-self: stretch;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section--why-us .single-item{
+  padding: 1rem;
+  border: 1px solid #eee;
+  margin-bottom: 3rem;
+}
 
 .section--why-us .card{
   margin-bottom: 4rem;
@@ -104,6 +201,19 @@
   justify-content: space-between;
   overflow-y: auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .section--testimonials .testimony{
