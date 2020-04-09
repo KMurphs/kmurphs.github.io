@@ -1,3 +1,9 @@
+
+
+
+
+
+
 /* css variables */ 
 @import url(./partials/variables.css);
 
@@ -15,12 +21,6 @@
 
 
 
-
-
-
-
-
-
 .navbar{
   padding: 0;
 }
@@ -28,7 +28,6 @@
   font-family: cursive;
   font-weight: bold;
   border-radius: 50%;
-  /* box-shadow: var(--box-shadow-smallest); */
   border: 1px solid #eee;
   padding: .5rem;
   display: flex;
@@ -43,7 +42,6 @@
   margin: 0;
   font-weight: bold;
   font-size: 1.5rem;
-  /* position: absolute; */
 }
 .navbar-collapse{
   align-self: stretch;
@@ -206,19 +204,25 @@
 
 
 
-
-
-
-
-
-
+.section--projects .card{
+  margin-bottom: 3rem;
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section--projects .mix,
+.section--projects .mix *{
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none; 
+}
 
 
 
 
 .section--testimonials .testimony{
   border: 1px solid #eee;
-  /* padding: 1rem; */
   margin: 0;
   box-shadow: var(--box-shadow);
   margin: 3rem auto;
@@ -230,9 +234,6 @@
 }
 .section--testimonials .testimony-img-container img{
   width: 100%;
-  /* max-width: 15rem;
-  margin: 0 auto;
-  display: block; */
 } 
 .testimony-text-container{
   padding: 1rem;

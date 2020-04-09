@@ -249,17 +249,20 @@
 
 
   <!-- ===================== Recent Projects Section ============================-->
-  <section class="section row container-fluid section--why-us">
+  <section class="section row container-fluid section--projects" id="section--projects">
     <div class="col-12">
-      <h1>Recent Projects</h1>
-      <p>You will find these qualities in all of our products</p>
+      <h1 class="section-title">Recent Projects</h1>
+      <h5 class="text-center">You will find these qualities in all of our products</h5>
     </div>
-    <div class="col-12 row">
-      <button>All</button>
-      <button>All</button>
-      <button>All</button>
+
+    <div class="col-12 projects-selectors my-5">
+      <button class="filter-control" data-filter="all">All</button>
+      <button class="filter-control" data-filter=".category-Csharp">C#</button>
+      <button class="filter-control" data-filter=".category-Python">Python</button>
     </div>
-    <div class="col-sm-6 col-md-4 col-lg-3">
+
+
+    <div class="mix col-sm-6 col-md-4 col-lg-3 category-Csharp">
       <div class="card">
         <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
         <div class="card-body">
@@ -288,11 +291,9 @@
       </div>
     </div>
 
-
-
-    <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="mix col-sm-6 col-md-4 col-lg-3 category-Csharp category-Python">
       <div class="card">
-        <div class="card-image-container" style="background-image: url('./img/portfolio/p2.jpg')"></div>
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
         <div class="card-body">
           <div>
             <h5 class="card-title">Card title</h5>
@@ -319,9 +320,9 @@
       </div>
     </div>
 
-    <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="mix col-sm-6 col-md-4 col-lg-3 category-Python">
       <div class="card">
-        <div class="card-image-container" style="background-image: url('./img/portfolio/p3.jpg')"></div>
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
         <div class="card-body">
           <div>
             <h5 class="card-title">Card title</h5>
@@ -348,9 +349,9 @@
       </div>
     </div>
 
-    <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="mix col-sm-6 col-md-4 col-lg-3 category-Csharp">
       <div class="card">
-        <div class="card-image-container" style="background-image: url('./img/portfolio/p4.jpg')"></div>
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
         <div class="card-body">
           <div>
             <h5 class="card-title">Card title</h5>
@@ -377,9 +378,9 @@
       </div>
     </div>
 
-    <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="mix col-sm-6 col-md-4 col-lg-3 category-Csharp category-Python">
       <div class="card">
-        <div class="card-image-container" style="background-image: url('./img/portfolio/p5.jpg')"></div>
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
         <div class="card-body">
           <div>
             <h5 class="card-title">Card title</h5>
@@ -406,9 +407,9 @@
       </div>
     </div>
 
-    <div class="col-sm-6 col-md-4 col-lg-3">
+    <div class="mix col-sm-6 col-md-4 col-lg-3 category-Python">
       <div class="card">
-        <div class="card-image-container" style="background-image: url('./img/portfolio/p6.jpg')"></div>
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
         <div class="card-body">
           <div>
             <h5 class="card-title">Card title</h5>
@@ -434,6 +435,65 @@
         </div>
       </div>
     </div>
+
+    <div class="mix col-sm-6 col-md-4 col-lg-3 category-Csharp">
+      <div class="card">
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
+        <div class="card-body">
+          <div>
+            <h5 class="card-title">Card title</h5>
+            <div class="card-meta mb-2 d-flex justify-content-between flex-wrap">
+              <div class="card-text"><small class="text-muted font-size-70"><i class="fa fa-user" arial-hidden="true"></i>Admin</small></div>
+              <div class="card-text"><small class="text-muted font-size-70">March 24, 2020 - 12:35 pm</small></div>
+            </div>
+            <p class="card-text excerpt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div>
+            <p class="card-text ">
+              <ul class="technology__items-list d-flex font-size-70 text-muted flex-wrap">	
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Algorithms and Data Structures</li>     
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Sorting</li>   
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">MongoDB</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 70%;">C#, .NET, ASP.NET </li>    
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">React</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Docker</li>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-secondary font-size-80">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mix col-sm-6 col-md-4 col-lg-3 category-Csharp category-Python">
+      <div class="card">
+        <div class="card-image-container" style="background-image: url('./img/portfolio/p1.jpg')"></div>
+        <div class="card-body">
+          <div>
+            <h5 class="card-title">Card title</h5>
+            <div class="card-meta mb-2 d-flex justify-content-between flex-wrap">
+              <div class="card-text"><small class="text-muted font-size-70"><i class="fa fa-user" arial-hidden="true"></i>Admin</small></div>
+              <div class="card-text"><small class="text-muted font-size-70">March 24, 2020 - 12:35 pm</small></div>
+            </div>
+            <p class="card-text excerpt">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+          <div>
+            <p class="card-text ">
+              <ul class="technology__items-list d-flex font-size-70 text-muted flex-wrap">	
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Algorithms and Data Structures</li>     
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Sorting</li>   
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">MongoDB</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 70%;">C#, .NET, ASP.NET </li>    
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">React</li>      
+                <li class="technology__item text-no-wrap mr-2 px-1 border rounded mb-1" style="--width: 0%;">Docker</li>
+              </ul>
+            </p>
+            <a href="#" class="btn btn-secondary font-size-80">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
 
   </section>
@@ -551,5 +611,7 @@
 
   <script src="./js/jquery.3.4.1.js"></script>
   <script src="./js/bootstrap.min.js"></script>
+  <script src="./vendor/MixItUp/js/mixitup.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>
