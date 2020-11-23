@@ -38,6 +38,7 @@ DEL %tmpFile%
 
 
 @REM Push to Master 
+cd ..
 git add *
 git commit -m "Added %post%"
 git push origin gh-pages:master
