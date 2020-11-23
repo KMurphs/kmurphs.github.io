@@ -20,6 +20,9 @@ echo categories: jekyll update >%post_file%
 echo author: Stephane Kibonge >%post_file%
 echo --- >%post_file%
 
+@REM Push to Master
+git push origin gh-pages:master --force
+
 
 @REM Start Local Server
 bundle exec jekyll serve -l -o
