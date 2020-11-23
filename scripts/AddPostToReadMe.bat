@@ -35,3 +35,9 @@ FOR /F "delims=" %%i in ('type %srcFile%') DO (
 @REM Finalize and Cleanup
 COPY /Y %tmpFile% %srcFile% 
 DEL %tmpFile%
+
+
+@REM Push to Master 
+git add *
+git commit -m "Added %post%"
+git push origin gh-pages:master
