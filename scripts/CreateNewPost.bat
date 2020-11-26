@@ -20,6 +20,7 @@ IF "%2"=="" (
   SET permalink=%2
 )
 SET permalink=%permalink:"=%
+SET permalink=%permalink::=%
 SET permalink=%permalink: =-%
 
 @REM Convert to lower case

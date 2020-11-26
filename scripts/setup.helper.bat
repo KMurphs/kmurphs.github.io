@@ -7,7 +7,7 @@ echo --- >>main.scss
 echo # Only the main Sass file needs front matter (the dashes are enough)>main.scss
 echo --->main.scss
 echo @import "{{ site.theme }}";  >main.scss
-echo .post-content p{ text-align: justify; line-height: 1.8; }  >main.scss
+echo .post-content p{ text-align: justify; line-height: 1.8; font-size: 1.25rem; }  >main.scss
 
 
 @REM Create a New Post

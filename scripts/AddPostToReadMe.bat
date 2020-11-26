@@ -1,16 +1,24 @@
 @ECHO OFF
-@REM Usage: AddPostToReadMe.bat "[Gentle Introduction to Creational Design Patterns](https://kmurphs.github.io/posts/creational-patterns2)" "2020-11-19"
+@REM Usage: AddPostToReadMe.bat "2020-11-19-creational-patterns.markdown"
 
 
-@REM Get Post Link and Title
+@REM POST jekyll id
 SET post=%1
-SET post=%post:"=%
-SET post
 
-@REM Get Post Date
-SET date=%2
-SET date=%date:"=%
-SET date
+
+@REM Read Title from post file
+FOR /F "tokens=* USEBACKQ" %%i IN (`findstr title ..\_posts\%post%`) DO set title=%%i
+set title=%title:title:  =%
+
+@REM Extract Date
+for /F "tokens=1-3 delims=-" %%a in ("%post%") do set date=%%a-%%b-%%c
+
+@REM Extract permalink
+call set permalink=%%post:%date%-=%%
+set permalink=%permalink:.markdown=%
+
+
+
 
 @REM Set Variable for files to be used
 SET tmpFile=tmp.md
@@ -23,9 +31,9 @@ SET srcFile=..\readme.md
 FOR /F "delims=" %%i in ('type %srcFile%') DO (
   ECHO.%%i>>%tmpFile%
 
-  @REM Insert new post just below the line |-|-|
+  @REM Insert new title just below the line |-|-|
   if "%%i"=="|-|-|" (
-    CALL echo|SET /p="|%%post%%|%%date%%|">>%tmpFile%
+    CALL echo|SET /p="|%%title%%|%%date%%|">>%tmpFile%
     ECHO.>>%tmpFile%
   )
 )
