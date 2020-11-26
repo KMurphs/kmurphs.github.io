@@ -50,7 +50,7 @@ DEL %tmpFile%
 @REM Push to Master 
 cd ..
 git add *
-git commit -m "Added post '%post_link%'
+git commit -m "Added post '%title%' (@%baseURL%%permalink%)"
 git push
 git push origin gh-pages:master
 cd scripts
