@@ -9,6 +9,7 @@ SET post=%1
 @REM Read Title from post file
 FOR /F "tokens=* USEBACKQ" %%i IN (`findstr title ..\_posts\%post%`) DO set title=%%i
 set title=%title:title:  =%
+set title=%title:"=%
 
 @REM Extract Date
 for /F "tokens=1-3 delims=-" %%a in ("%post%") do set date=%%a-%%b-%%c
@@ -23,7 +24,8 @@ set permalink=%permalink:.markdown=%
 @REM Set Variable for files to be used
 SET tmpFile=tmp.md
 SET srcFile=..\readme.md
-
+SET baseURL=https://kmurphs.github.io/posts/
+set post_link=[%title%](%baseURL%%permalink%)
 
 
 
@@ -33,7 +35,7 @@ FOR /F "delims=" %%i in ('type %srcFile%') DO (
 
   @REM Insert new title just below the line |-|-|
   if "%%i"=="|-|-|" (
-    CALL echo|SET /p="|%%title%%|%%date%%|">>%tmpFile%
+    CALL echo|SET /p="|%%post_link%%|%%date%%|">>%tmpFile%
     ECHO.>>%tmpFile%
   )
 )
@@ -48,6 +50,7 @@ DEL %tmpFile%
 @REM Push to Master 
 cd ..
 git add *
-git commit -m "Added %post%"
+git commit -m "Added post '%post_link%'
+git push
 git push origin gh-pages:master
 cd scripts
