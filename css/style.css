@@ -25,6 +25,10 @@
   padding: 0;
 }
 .navbar-brand{
+  margin-left: 1rem;
+
+}
+.navbar-brand-{
   font-family: cursive;
   font-weight: bold;
   border-radius: 50%;
@@ -42,6 +46,7 @@
   margin: 0;
   font-weight: bold;
   font-size: 1.5rem;
+  font-weight: 300;
 }
 .navbar-collapse{
   align-self: stretch;
@@ -51,13 +56,16 @@
   padding: .5rem 1rem;
   display: flex;
   align-items: center;
+  transition: all .3s, color 0s;
 }
 .navbar-light .navbar-nav .nav-item:hover{
   background: var(--gradient-color);
   color: white;
+  transition: all .3s, color 0s;
 }
 .navbar-light .navbar-nav .nav-item:hover a{
   color: white;
+  transition: all .3s, color 0s;
 }
 @media (min-width: 893px){
   .navbar-light .navbar-nav .nav-item{
@@ -126,10 +134,16 @@
   border: 1px solid #ddd;
   margin: .5rem;
   padding: .5rem;
+  height: 10rem;
 }
 .section--technologies .technology-items .single-item:hover{
   box-shadow: var(--box-shadow);
   transform: scale(1.1);
+}
+.section--technologies .technology-items .single-item img{
+  max-width: 100%;
+  height: auto;
+  max-height: 100%;
 }
 .section--technologies .technology-items .single-item:hover img{
   filter: brightness(0.15);
@@ -192,6 +206,7 @@
   padding: 1rem;
   border: 1px solid #eee;
   margin-bottom: 3rem;
+  height: calc(100% - 3rem);
 }
 
 .section--why-us .card{

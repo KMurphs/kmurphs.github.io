@@ -59,6 +59,7 @@ li{
 
 .btn-primary{
   background: var(--gradient-color);
+  border-color: transparent;
 }
 .btn-primary:hover{
  box-shadow: var(--box-shadow);
