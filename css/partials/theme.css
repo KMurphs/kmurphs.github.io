@@ -56,7 +56,9 @@ li{
   line-height: 1.8;
   margin: 0 auto;
 }
-
+.btn{
+  min-height: 48px;
+}
 .btn-primary{
   background: var(--gradient-color);
   border-color: transparent;

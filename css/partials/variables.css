@@ -4,6 +4,7 @@
   --primary-color: #4458dc;
   --primary-color-light: #e029290a;
   --primary-color-alt: #854fee;
+  --primary-color-alt-light: #d6c1ff;
   --gradient-color: linear-gradient(90deg, var(--primary-color) 0%, var(--primary-color-alt) 100%);
 
   --shadow-color:  0px 10px 30px rgba(118, 85, 225, 0.3);

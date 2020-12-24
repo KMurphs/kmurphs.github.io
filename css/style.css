@@ -316,3 +316,49 @@
 .section--testimonials .carousel-indicators li.active{
   height: 5px;
 }
+
+
+
+
+
+
+footer{
+  min-height: 50vh;
+  background: #4458dc;
+  background: linear-gradient(315deg, var(--primary-color) 0%, var(--primary-color-alt) 100%);
+  padding: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+
+footer h2{
+  font-size: 2.5rem;
+}
+footer p{
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+footer a{
+  font-size: 2rem;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* background-color: var(--accent-700); */
+  background-color: rgba(0,0,0,0.1);
+  margin-left: 2rem;
+  color: white !important;
+  text-decoration: none !important;
+  transition: transform .3s, box-shadow .3s;
+}
+footer a:hover{
+  box-shadow: 4px 8px 1rem -2px var(--shadow-color);
+  transform: scale(1.05);
+  color: var(--primary-color-alt-light) !important;
+  transition: transform .3s, box-shadow .3s;
+}
