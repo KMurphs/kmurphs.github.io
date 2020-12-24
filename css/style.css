@@ -342,16 +342,16 @@ footer p{
   line-height: 1.8;
 }
 footer a{
-  font-size: 2rem;
-  width: 4rem;
-  height: 4rem;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   /* background-color: var(--accent-700); */
   background-color: rgba(0,0,0,0.1);
-  margin-left: 2rem;
+  margin-left: .5rem;
   color: white !important;
   text-decoration: none !important;
   transition: transform .3s, box-shadow .3s;
@@ -361,4 +361,12 @@ footer a:hover{
   transform: scale(1.05);
   color: var(--primary-color-alt-light) !important;
   transition: transform .3s, box-shadow .3s;
+}
+@media (min-width: 470px){
+  footer a{
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    margin-left: 2rem;
+  }
 }
