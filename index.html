@@ -19,10 +19,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="mr-auto"></div>
       <ul class="navbar-nav">
-        <li class="nav-item active"><a class="nav-link" href="#">Resume</a></li>
+        <!-- <li class="nav-item active">
+          <form class="nav-link nav-link--as-form" method="get" action="docs/Resume-Kibonge.pdf">
+            <button type="submit">Resume</button>
+          </form>
+        </li> -->
+        <!-- https://stackoverflow.com/questions/11620698/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript -->
+        <!-- <li class="nav-item active"><a class="nav-link" href="docs/Resume-Kibonge.pdf?download=1">Resume</a></li> -->
+        <li class="nav-item active"><a class="nav-link" href="docs/Resume-Kibonge.pdf" target="_blank">Resume</a></li>
         <li class="nav-item active"><a class="nav-link" href="#">Portfolio</a></li>
         <li class="nav-item active"><a class="nav-link" href="/blog">Blog</a></li>
-        <li class="nav-item active"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item active"><a class="nav-link" href="#footer">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -588,7 +595,7 @@
 
 
 
-  <footer>
+  <footer id="footer">
 
     <h2>Contact Me</h2>
     <p>Want to chat? Or have you got a question/Suggestion? <br/>Drop me a message. I'm always happy to engage with the community</p>
@@ -604,6 +611,8 @@
 
   <script src="./js/jquery.3.4.1.js"></script>
   <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/textLineGenerator.js"></script>
+  <script src="./js/yamlToObject.js"></script>
   <script src="./vendor/MixItUp/js/mixitup.min.js"></script>
   <script src="./js/script.js"></script>
 </body>
